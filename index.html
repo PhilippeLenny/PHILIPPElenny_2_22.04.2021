@@ -11,16 +11,14 @@
 <body>
     <header>
         <p>
-            <img src="images/logo/Reservia.svg" alt="Logo reservia" />
+            <div id="logoreservia"><img src="images/logo/Reservia.svg" alt="Logo reservia" /></div>
         </p>
         <nav>
-            <ul>
-                <li>Hébergements</li>
-                <li>Activités</li>
-            </ul>
-            <p>
-                <a href="s'inscrire">S'inscrire</a>
-            </p>  
+            <ul><div id="liste1">
+                <div class="click1"><li><a href="s'inscrire">S'inscrire</a></li></div>
+                <div class="click1"><li><a href="#">Activités</a></li></div>
+                <div class="click1"><li><a href="#">Hébergements</a></li></div>
+            </ul></div>
         </nav>
     </header>
     <main>
@@ -34,23 +32,26 @@
     </form>
 
     <h3>Filtres</h3>
-        <ul>
-            <li>Économique</li>
-            <li>Familial</li>
-            <li>Romantique</li>
-            <li>Animaux autorisés</li>
-        </ul>
 
-    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        <ul><div id="liste2">
+            <div class="click1"><li><i class="fas fa-money-bill-wave"></i> Économique</li></div>
+            <div class="click1"><li><i class="fas fa-child"></i> Familial</li></div>
+            <div class="click1"><li><i class="fas fa-heart"></i> Romantique</li></div>
+            <div class="click1"><li><i class="fas fa-dog"></i> Animaux autorisés</li></div>
+        </ul></div>
+
+    <p><i class="fas fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville</p>
 
         <section>
+    <div id="bloc">
+        <div id="bloc0">
             <h2>Hébergement à Marseille</h2>
-                <div>
+                <div id="bloc1">
                     <article>
-                        <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"/>
+                        <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"/></div>
                         <h3>Auberge la Cannebière</h3>
                         <p>Nuit à partir de <strong>25€</strong></p>
-                    </article>  
+                    </article>
 
                     <article>
                         <img src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
@@ -63,7 +64,8 @@
                         <h3>Hôtel Les mouettes</h3>
                         <p>Nuit à partir de <strong>76€</strong></p>
                     </article>
-
+                </div>
+                <div id="bloc2">
                     <article>
                         <img src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
                         <h3>Hôtel de la mer</h3>
@@ -81,14 +83,15 @@
                         <h3>Hôtel chez Anima</h3>
                         <p>Nuit à partir de <strong>56€</strong></p>
                     </article> 
-                </div>  
-                
-            <a>Afficher plus</a>
+                </div>     
+            <h3><a>Afficher plus</a></h3>
+        </div>
         </section>
 
         <aside>
-            <h2>Les plus populaires</h2>
-                <div>
+            <div id="bloc3">
+            <h2>Les plus populaires <i class="far fa-gem"></i></h2>
+                
                     <article>
                         <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
                         <h3>Hôtel le soleil du matin</h3>
@@ -107,6 +110,7 @@
                         <p>Nuit à partir de 68€</p>
                     </article>
                 </div>
+
         </aside>
 
         <section>

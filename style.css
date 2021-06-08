@@ -3,9 +3,71 @@ ul
     list-style-type: none;
 }
 
-nav
+#liste1 
 {
+    list-style-type: none;
     display: flex;
     flex-direction: row-reverse;
 }
 
+#liste2
+{
+    display: flex;
+}
+
+
+.click1
+{
+    padding-right: 15px;
+}
+
+.images1
+{
+	width: 183px;
+	height: 105px;
+}
+
+img
+{
+	width: 200px;
+	height: 100px;
+}
+
+i
+{
+
+}
+
+#bloc
+{
+    display: flex;
+}
+
+#bloc0
+{
+    border-radius: 22px;
+    border: 2px solid #e3e3e3;
+    background-color: #e3e3e3;
+    width: 45%;
+    margin-left: 0%;
+}
+
+#bloc1
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#bloc2
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#bloc3
+{
+    border-radius: 22px;
+    border: 2px solid #e3e3e3;
+    background-color: #e3e3e3;
+    width: 19%;
+}
