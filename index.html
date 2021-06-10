@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer ></script>
     <title>Document</title>
 </head>
 <body>
     <header>
-        <p>
             <div id="logoreservia"><img src="images/logo/Reservia.svg" alt="Logo reservia" /></div>
-        </p>
+        
         <nav>
-            <ul><div id="liste1">
-                <div class="click1"><li><a href="s'inscrire">S'inscrire</a></li></div>
-                <div class="click1"><li><a href="#">Activités</a></li></div>
-                <div class="click1"><li><a href="#">Hébergements</a></li></div>
-            </ul></div>
+            <ul id="liste1">
+                <li class="click1"><a href="s'inscrire">S'inscrire</a></li>
+                <li class="click1"><a href="#">Activités</a></li>
+                <li class="click1"><a href="#">Hébergements</a></li>
+            </ul> 
         </nav>
     </header>
     <main>
@@ -31,17 +31,20 @@
         <input type="submit" value="rechercher">
     </form>
 
+    <section id="filtres">
     <h3>Filtres</h3>
 
-        <ul><div id="liste2">
-            <div class="click1"><li><i class="fas fa-money-bill-wave"></i> Économique</li></div>
-            <div class="click1"><li><i class="fas fa-child"></i> Familial</li></div>
-            <div class="click1"><li><i class="fas fa-heart"></i> Romantique</li></div>
-            <div class="click1"><li><i class="fas fa-dog"></i> Animaux autorisés</li></div>
-        </ul></div>
+        <ul class="liste2">
+            <li class="click1"><i class="fas fa-money-bill-wave"></i> Économique</li>
+            <li class="click1"><i class="fas fa-child"></i> Familial</li>
+            <li class="click1"><i class="fas fa-heart"></i> Romantique</li>
+            <li class="click1"><i class="fas fa-dog"></i> Animaux autorisés</li>
+        </ul>
+    </section>
 
     <p><i class="fas fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville</p>
 
+    <div class="premièrepartie">
         <section>
         <div id="bloc0">
             <h2>Hébergement à Marseille</h2>
@@ -89,7 +92,7 @@
 
         <aside>
             <div id="bloc3">
-            <h2>Les plus populaires <i class="far fa-gem"></i></h2>
+            <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
                 
                     <article>
                         <img class="images2" src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
@@ -110,6 +113,7 @@
                     </article>
                 </div>
         </aside>
+    </div>
 
         <section>
             <h2>Activités à Marseille</h2>
