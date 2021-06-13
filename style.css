@@ -3,12 +3,20 @@ ul
     list-style-type: none;
 }
 
-#liste1 
+#liste1
 {
     list-style-type: none;
     display: flex;
     flex-direction: row-reverse;
+    position: relative;
+    bottom: 15px;
 }
+
+.textdeco /* :hover border-top: 3px solid blue;*/
+{
+    text-decoration: none;
+}
+
 
 #filtres
 {
@@ -42,12 +50,55 @@ main
     border: 2px solid #d8eff2;
     border-radius: 50%;
     background-color: #d8eff2;
+    padding: 6px;
+    margin-bottom: 2px;
+    position: relative;
+    right: 3px;
+}
+
+.familyicon
+{
+    border: 2px solid #d8eff2;
+    border-radius: 50%;
+    background-color: #d8eff2;
+    padding: 6px;
+    padding-right: 9px;
+    padding-left: 9px;
+    position: relative;
+    right: 3px;
+}
+
+.ibleu
+{
+    color: #2478ff;
+    border: 1px solid #dee0df;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.filtregris
+{
+    border: 2px solid #e6e6e6;
+    border-radius: 20px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    block-size: 30px;
+}
+
+.h3gras
+{
+    font-weight: bold;
 }
 
 .liste2
 {
     margin-left: 15px;
     display: flex;
+    font-weight: bold;
 }
 
 .premièrepartie
@@ -159,6 +210,38 @@ i
     margin-top: 12px;
 }
 
+.searchbarr
+{
+    padding: 7px;
+    border: 2px solid #e6e6e6;
+    border-right: 2px solid #2478ff;
+}
+
+.searchdeco
+{
+    border: 2px solid #e6e6e6;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 11px;
+    padding: 6px;
+    padding-left: 10px;
+    background-color: #e6e6e6;
+    position: relative;
+    top: 8px;
+}
+
+.recherche
+{
+    color: white;
+    background-color: #2478ff;
+    border: 2px solid #2478ff;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.searchbarrcomp
+{
+    display: flex;
+}
+
 .catégorie
 {
     font-weight: bold;
@@ -189,8 +272,3 @@ i
    float:left
 }
 
-.searchdeco
-{
-    border: 2px solid black;
-    border-radius: 12px 0px 0px 12px;
-}
