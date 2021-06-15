@@ -156,11 +156,6 @@ main
     font-size: 14px;
 }
 
-.allstars
-{
-    
-}
-
 
 #bloc
 {
@@ -308,6 +303,13 @@ main
     font-size: 12px;
 }
 
+.étoilesbleudroit
+{
+    position: relative;
+    color: #2478ff;
+    font-size: 12px;
+}
+
 .étoilesgrises
 {
     color: #d9d9d9;
@@ -319,3 +321,13 @@ main
    float:left
 }
 
+.imagevieuxport
+{
+    height: 120px;
+    width: 320px;
+}
+
+.imagefort
+{
+
+}
