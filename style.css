@@ -93,6 +93,7 @@ main
 .h3gras
 {
     font-weight: bold;
+    padding-right: 15px;
 }
 
 .liste2
@@ -110,16 +111,17 @@ main
 
 .click1
 {
-    padding-right: 15px;
+    padding-right: 35px;
 }
 
 .images1
 {
-	width: 175px;
+	width: 248px;
 	height: 85px;
     border-radius: 20px 20px 0px 0px;
     padding-left: 3px;
     padding-top: 3px;
+    object-fit: cover;
 }
 
 .images2
@@ -129,6 +131,7 @@ main
     border-radius: 20px 0px 0px 20px;
     padding-left: 2px;
     padding-top: 2px;
+    object-fit: cover;
 }
 
 .cadredroit
@@ -139,7 +142,7 @@ main
     background-color: white;
     margin-bottom: 20px;
     height: 95px;
-    width: 255px;
+    width: 345px;
     margin-top: 20px;
     margin-left: 30px;
     margin-bottom: 26px;
@@ -175,6 +178,11 @@ main
 .cadre2p
 {
     font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.cadre3p
+{
     padding-bottom: 14px;
 }
 
@@ -193,20 +201,21 @@ main
     min-height: 392px;
     width: 650px;
     height: 450px;
+    width: 950px;
 }
 
 #bloc1
 {
     display: flex;
-    justify-content: space-around;
     margin-top: 18px;
     margin-bottom: 30px;
+    padding-left: 15px;
 }
 
 #bloc2
 {
     display: flex;
-    justify-content: space-around;
+    padding-left: 15px;
 }
 
 #bloc3
@@ -217,6 +226,7 @@ main
     min-width: 325px;
     min-height: 450px;
     margin-left: 35px;
+    width: 415px;
 }
 
 .lespluspops
@@ -249,6 +259,13 @@ main
     min-width: 181px;
     min-height: 85px;
     height: 152px;
+    width: 255px;
+}
+
+.case-placement
+{
+    padding-left: 75px;
+    padding-right: 65px;
 }
 
 #logoreservia
@@ -280,6 +297,7 @@ main
 
 .searchbarr
 {
+    height: 15px;
     padding: 10px;
     border: 2px solid #e6e6e6;
     border-right: 2px solid #2478ff;
@@ -290,11 +308,17 @@ main
     border: 2px solid #e6e6e6;
     border-radius: 10px 0px 0px 10px;
     margin-top: 11px;
-    padding: 6px;
-    padding-left: 10px;
     background-color: #e6e6e6;
-    top: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
 }
+
+.searchdeco i
+{
+    margin: auto;
+}
+
 
 .recherche
 {
@@ -330,9 +354,9 @@ main
 
 .étoilesbleudroit
 {
-    position: relative;
     color: #2478ff;
     font-size: 12px;
+    padding-top: 10px;
 }
 
 .étoilesgrises
@@ -363,15 +387,16 @@ main
     border-right: 2px solid #e6e6e6;
     background-color: white;
     border-radius: 25px 25px 20px 20px;
-    width: 214px;
+    width: 324px;
     height: 342px;
 }
 
 .image-vieux-port
 {
-    width: 215px;
+    width: 325px;
     height: 300px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .titre-activité
@@ -401,15 +426,16 @@ main
     border-right: 2px solid #e6e6e6;
     background-color: white;
     border-radius: 25px 25px 20px 20px;
-    width: 234px;
+    width: 299px;
     height: 175px;
 }
 
 .image-pomègue
 {
-    width: 235px;
+    width: 300px;
     height: 135px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .fort-séparation
@@ -425,21 +451,22 @@ main
     border-right: 2px solid #e6e6e6;
     background-color: white;
     border-radius: 25px 25px 20px 20px;
-    width: 233px;
+    width: 299px;
     height: 139px;
 }
 
 .image-frioul
 {
-    width: 234px;
+    width: 300px;
     height: 100px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .parc-ali
 {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left:  45px;
+    padding-right: 45px;
 }
 
 .parc-canalaques
@@ -450,15 +477,16 @@ main
     border-right: 2px solid #e6e6e6;
     background-color: white;
     border-radius: 25px 25px 20px 20px;
-    width: 264px;
+    width: 324px;
     height: 342px;
 }
 
 .image-canalaques
 {
-    width: 265px;
+    width: 325px;
     height: 302px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .nôtre-dame-modif
@@ -474,15 +502,16 @@ main
     border-right: 2px solid #e6e6e6;
     background-color: white;
     border-radius: 25px 25px 20px 20px;
-    width: 209px;
+    width: 309px;
     height: 155px;
 }
 
 .image-nôtre-dame
 {
-    width: 210px;
+    width: 310px;
     height: 115px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .Longchamp
@@ -493,15 +522,16 @@ main
     border-right: 2px solid #e6e6e6;
     background-color: white;
     border-radius: 25px 25px 20px 20px;
-    width: 209px;
+    width: 309px;
     height: 160px;
 }
 
 .image-Longchamp
 {
-    width: 210px;
+    width: 310px;
     height: 120px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .all-activity
@@ -513,7 +543,7 @@ main
 .îles-fort-column
 {
     flex-direction: column;
-    padding-left: 30px;
+    padding-left: 45px;
 }
 
 .dame-parc-culumn
@@ -542,7 +572,7 @@ main
     border: #e6e6e6 solid 2px;
     background-color: #e6e6e6;
     padding-bottom: 100px;
-    padding-left: 115px;
+    padding-left: 10px;
 }
 
 .trie-footer
@@ -561,7 +591,7 @@ main
 .écart
 {
     padding-top: 9px;
-    margin-right: 100px;
+    margin-right: 125px;
 }
 
 .nos-hébergement
@@ -573,7 +603,9 @@ main
 {
     .liste2
     {
+        background-color: grey;
         width: auto;
+        flex-wrap: wrap;
     }
 
     .cadre
