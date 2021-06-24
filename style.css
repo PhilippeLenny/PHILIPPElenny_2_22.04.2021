@@ -275,6 +275,7 @@ main
 .search
 {
     padding-top: 12px;
+    display: flex;
 }
 
 .searchbarr
