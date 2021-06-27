@@ -604,11 +604,27 @@ main
 
 @media all and (max-width: 1024px)
 {
+
+    .logements-retour-l
+    {
+        display: block;
+        padding-left: 25px;
+    }
+
+    .retour-ligne-roman-animaux
+    {
+        display: block;
+    }
+
     .liste2
     {
-        background-color: grey;
         width: auto;
         flex-wrap: wrap;
+    }
+
+    .click1
+    {
+        padding-bottom: 25px;
     }
 
     .premièrepartie
