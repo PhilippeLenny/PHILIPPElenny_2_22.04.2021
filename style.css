@@ -195,6 +195,8 @@ main
 {
     border-radius: 20px;
     border: 2px solid white;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35); 
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35);
     background-color: white;
     min-width: 181px;
     min-height: 85px;
@@ -275,6 +277,7 @@ main
     font-size: 20px;
     position: relative;
     padding-top: 18px;
+    padding-bottom: 0px;
     padding-left: 40px;
 }
 
@@ -287,6 +290,8 @@ main
 {
     display: flex;
     border: 2px solid white;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35); 
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35);
     border-radius: 20px;
     background-color: white;
     margin-bottom: 20px;
@@ -375,9 +380,8 @@ main
 .cadre-vieux-port
 {
     flex-direction: column;
-    border-bottom: 2px solid #e6e6e6;
-    border-left: 2px solid #e6e6e6;
-    border-right: 2px solid #e6e6e6;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.20); 
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.20);  
     background-color: white;
     border-radius: 25px 25px 20px 20px;
     width: 324px;
@@ -414,9 +418,8 @@ main
 .fort-pomègue
 {
     flex-direction: column;
-    border-bottom: 2px solid #e6e6e6;
-    border-left: 2px solid #e6e6e6;
-    border-right: 2px solid #e6e6e6;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25); 
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25);
     background-color: white;
     border-radius: 25px 25px 20px 20px;
     width: 299px;
@@ -439,9 +442,8 @@ main
 .îles-frioul
 {
     flex-direction: column;
-    border-bottom: 2px solid #e6e6e6;
-    border-left: 2px solid #e6e6e6;
-    border-right: 2px solid #e6e6e6;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25); 
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25);
     background-color: white;
     border-radius: 25px 25px 20px 20px;
     width: 299px;
@@ -465,9 +467,8 @@ main
 .parc-canalaques
 {
     flex-direction: column;
-    border-bottom: 2px solid #e6e6e6;
-    border-left: 2px solid #e6e6e6;
-    border-right: 2px solid #e6e6e6;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25); 
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25);
     background-color: white;
     border-radius: 25px 25px 20px 20px;
     width: 324px;
@@ -490,9 +491,8 @@ main
 .nôtre-dame
 {
     flex-direction: column;
-    border-bottom: 2px solid #e6e6e6;
-    border-left: 2px solid #e6e6e6;
-    border-right: 2px solid #e6e6e6;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25); 
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25);
     background-color: white;
     border-radius: 25px 25px 20px 20px;
     width: 309px;
@@ -510,9 +510,8 @@ main
 .Longchamp
 {
     flex-direction: column;
-    border-bottom: 2px solid #e6e6e6;
-    border-left: 2px solid #e6e6e6;
-    border-right: 2px solid #e6e6e6;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25); 
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25);
     background-color: white;
     border-radius: 25px 25px 20px 20px;
     width: 309px;
@@ -600,10 +599,20 @@ main
 @media all and (max-width: 1024px)
 {
 
+    .filter-section
+    {
+        padding-left: 45px;
+    }
+
     .return-ligne-title
     {
         flex-wrap: wrap;
         padding-bottom: 5px;
+    }
+
+    .number-logement-text
+    {
+        padding-left: 45px;
     }
 
     .logements-retour-l
@@ -621,6 +630,32 @@ main
     {
         width: auto;
         flex-wrap: wrap;
+    }
+
+    .annonce-M-box
+    {
+        border-radius: 20px;
+        border: 2px solid white;
+        box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.30); 
+        box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.30);
+        background-color: white;
+        min-width: 181px;
+        min-height: 85px;
+        height: 192px;
+        width: 370px;
+        margin-bottom: 17px;
+    }   
+
+    .annonce-M-image
+    {
+        width: 364px;
+    }
+
+    .see-more-M
+    {
+        padding-left: 28px;
+        padding-top: 5px;
+        font-size: 18px;
     }
 
     .catégorie-input-padding
@@ -642,14 +677,22 @@ main
         padding-left: 10px;
     }
 
+    .title-hébergement-marseille
+    {
+        padding-left: 25px;
+    }
+
     .héberg-M-part1
     {
         flex-direction: column;
+        margin-bottom: 0px;
+        padding-left: 25px;
     }
 
     .héberg-M-part2
     {
         flex-direction: column;
+        padding-left: 25px;
     }
 
     .case-M-placement-mid
@@ -662,11 +705,13 @@ main
     {
         border-radius: 0px;
         width: 370px;
+        height: 535px;
     }
 
     .most-pop-title
     {
         padding-left: 18px;
+        margin-bottom: 15px;
     }
 
     .stonk-logo
@@ -677,6 +722,20 @@ main
     .most-pop-box
     {
         margin-left: 10px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+    }
+
+    .all-activity
+    {
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .title-activités-Mar
+    {
+        padding-left: 37px;
+        padding-bottom: 20px;
     }
 
     .cadre-vieux-port
@@ -687,14 +746,15 @@ main
         border-right: 2px solid #e6e6e6;
         background-color: white;
         border-radius: 25px 25px 20px 20px;
-        width: 247px;
-        height: 165px;
+        width: 370px;
+        height: 192px;
+        margin-bottom: 17px;
     }
 
     .image-vieux-port
     {
-        width: 248px;
-	    height: 125px;
+        width: 370px;
+	    height: 150px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
     }
@@ -707,14 +767,25 @@ main
         border-right: 2px solid #e6e6e6;
         background-color: white;
         border-radius: 25px 25px 20px 20px;
-        width: 247px;
-        height: 165px;
+        width: 370px;
+        height: 192px;
+        margin-bottom: 17px;
+    }
+
+    .fort-séparation
+    {
+        padding-bottom: 0px;
+    }
+
+    .îles-fort-column
+    {
+        padding-left: 0px;
     }
 
     .image-pomègue
     {
-        width: 248px;
-	    height: 125px;
+        width: 370px;
+	    height: 150px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
     }
@@ -727,16 +798,23 @@ main
         border-right: 2px solid #e6e6e6;
         background-color: white;
         border-radius: 25px 25px 20px 20px;
-        width: 247px;
-        height: 165px;
+        width: 370px;
+        height: 192px;
+        margin-bottom: 17px;
     }
 
     .image-frioul
     {
-        width: 248px;
-	    height: 125px;
+        width: 370px;
+	    height: 150px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
+    }
+
+    .parc-ali
+    {
+        padding-left:  0px;
+        padding-right: 0px;
     }
 
     .parc-canalaques
@@ -747,17 +825,23 @@ main
         border-right: 2px solid #e6e6e6;
         background-color: white;
         border-radius: 25px 25px 20px 20px;
-        width: 247px;
-        height: 165px;
+        width: 370px;
+        height: 192px;
+        margin-bottom: 17px;
     }
 
     .image-canalaques
     {
-        width: 248px;
-	    height: 125px;
+        width: 370px;
+	    height: 150px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
     }
+
+    .nôtre-dame-modif
+    {
+        padding-bottom: 0px;
+    }   
 
     .nôtre-dame
     {
@@ -767,14 +851,15 @@ main
         border-right: 2px solid #e6e6e6;
         background-color: white;
         border-radius: 25px 25px 20px 20px;
-        width: 247px;
-        height: 165px;
+        width: 370px;
+        height: 192px;
+        margin-bottom: 17px;
     }
     
     .image-nôtre-dame
     {
-        width: 248px;
-	    height: 125px;
+        width: 370px;
+	    height: 150px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
     }
@@ -787,16 +872,28 @@ main
         border-right: 2px solid #e6e6e6;
         background-color: white;
         border-radius: 25px 25px 20px 20px;
-        width: 247px;
-        height: 165px;
+        width: 370px;
+        height: 192px;
+        margin-bottom: 17px;
     }
 
     .image-Longchamp
     {
-        width: 248px;
-	    height: 125px;
+        width: 370px;
+	    height: 150px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
+    }
+
+    .cadre-footer
+    {
+        padding-bottom: 30px;
+    }
+
+    .trie-footer
+    {
+        flex-direction: column;
+        margin-left: 30px;
     }
 
     .catégorie-footer
