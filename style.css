@@ -10,6 +10,39 @@ header
 #logoreservia
 {
     margin-bottom: 30px;
+    padding-top: 35px;
+}
+
+.inscription-input-deco
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: #2478ff;
+}
+
+.header-inscription
+{
+    padding-right: 50px;
+}
+
+.hébergement-activités-header
+{
+    padding-right: 80px;
+}
+
+.text-decoration-input:focus
+{
+    color: #2478ff;
+    border-top: 2px solid #2478ff;
+    padding-top: 44px;
+}
+
+
+.text-decoration-input
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
 }
 
 .list-inscription-catégorie
@@ -18,12 +51,11 @@ header
     display: flex;
     flex-direction: row-reverse;
     position: relative;
-    bottom: 15px;
 }
 
 .catégorie-input-padding
 {
-    padding-right: 35px;
+    padding-right: 40px;
 }
 
 .textdeco /* :hover border-top: 3px solid blue;*/
@@ -107,6 +139,18 @@ main
     font-weight: bold;
 }
 
+.filter-visual-effect
+{
+    text-decoration: none;
+    color: black;
+}
+
+.grey-border-around-filter:hover
+{
+    border: 2px solid black;
+    font-size: 17px;
+}
+
 .grey-border-around-filter
 {
     border: 2px solid #e6e6e6;
@@ -182,6 +226,12 @@ main
     padding-left: 20px;
     padding-top: 22px;
     font-size: 20px;
+}
+
+.input-all-annonces
+{
+    text-decoration: none;
+    color: black;
 }
 
 .héberg-M-part1
