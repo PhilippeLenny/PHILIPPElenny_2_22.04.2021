@@ -58,16 +58,17 @@ main
 {
     border: 2px solid #e6e6e6;
     border-radius: 10px 0px 0px 10px;
-    margin-top: 11px;
+    margin-top: 0px;
     background-color: #e6e6e6;
     width: 40px;
-    height: 40px;
+    height: 35px;
     display: flex;
 }
 
 .search-left-marker-logo i
 {
     margin: auto;
+    margin-right: 13px;
 }
 
 .search-text-area
