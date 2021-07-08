@@ -36,6 +36,7 @@ header
 {
     color: #2478ff;
     border-top: 2px solid #2478ff;
+    text-decoration-color: #2478ff;
     padding-top: 44px;
 }
 
@@ -229,7 +230,8 @@ main
     border: 2px solid #f5f5f5;
     background-color: #f5f5f5;
     height: 550px;
-    width: 950px;
+    width: auto;
+    justify-content: space-between;
 }
 
 .title-hébergement-marseille
@@ -244,14 +246,18 @@ main
 {
     text-decoration: none;
     color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
 }
 
 .héberg-M-part1
 {
     display: flex;
     margin-top: 18px;
-    margin-bottom: 30px;
-    padding-left: 15px;
+    margin-bottom: 7px;
+    padding-left: 8px;
+    flex-wrap: wrap;
 }
 
 .annonce-M-box
@@ -264,12 +270,12 @@ main
     min-width: 181px;
     min-height: 85px;
     height: 192px;
-    width: 255px;
+    width: 266px;
 }
 
 .annonce-M-image
 {
-	width: 248px;
+	width: 260px;
 	height: 125px;
     border-radius: 20px 20px 0px 0px;
     padding-left: 3px;
@@ -316,8 +322,7 @@ main
 
 .see-more-M
 {
-    padding-left: 20px;
-    padding-top: 25px;
+    padding-left: 35px;
     font-weight: bold;
     font-size: 17px;
 }
@@ -357,12 +362,10 @@ main
     box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35);
     border-radius: 20px;
     background-color: white;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     height: 135px;
     width: 345px;
-    margin-top: 20px;
     margin-left: 30px;
-    margin-bottom: 26px;
 }
 
 .most-pop-image
@@ -787,11 +790,12 @@ main
         height: auto;
         padding-left: 10px;
         margin: auto;
+        flex-wrap: wrap;
     }
 
     .title-hébergement-marseille
     {
-        padding-left: 25px;
+        margin-left: 25px;
     }
 
     .héberg-M-part1
