@@ -5,6 +5,12 @@ header
     align-items: center;
     max-width: 1440px;
     margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+body
+{
+    font-family: 'Raleway', sans-serif;
 }
 
 #logoreservia
@@ -48,6 +54,13 @@ header
     color: black;
 }
 
+.text-decoration-input-heberg
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: #2478ff;
+}
+
 .list-inscription-catégorie
 {
     list-style-type: none;
@@ -58,7 +71,7 @@ header
 
 .catégorie-input-padding
 {
-    padding-right: 40px;
+    margin-right: 40px;
 }
 
 .textdeco /* :hover border-top: 3px solid blue;*/
@@ -229,16 +242,15 @@ main
     border-radius: 22px;
     border: 2px solid #f5f5f5;
     background-color: #f5f5f5;
-    height: 550px;
     width: auto;
-    justify-content: space-between;
 }
+
 
 .title-hébergement-marseille
 {
     font-weight: bold;
-    padding-left: 20px;
-    padding-top: 22px;
+    margin-left: 39px;
+    margin-top: 22px;
     font-size: 20px;
 }
 
@@ -267,10 +279,9 @@ main
     box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35); 
     box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35);
     background-color: white;
-    min-width: 181px;
-    min-height: 85px;
     height: 192px;
-    width: 266px;
+    width: auto;
+    flex-wrap: wrap;
 }
 
 .annonce-M-image
@@ -278,8 +289,9 @@ main
 	width: 260px;
 	height: 125px;
     border-radius: 20px 20px 0px 0px;
-    padding-left: 3px;
-    padding-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
     object-fit: cover;
 }
 
@@ -322,7 +334,7 @@ main
 
 .see-more-M
 {
-    padding-left: 35px;
+    margin-left: 38px;
     font-weight: bold;
     font-size: 17px;
 }
@@ -344,9 +356,9 @@ main
     font-weight: bold;
     font-size: 20px;
     position: relative;
-    padding-top: 18px;
-    padding-bottom: 0px;
-    padding-left: 40px;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    margin-left: 40px;
 }
 
 .stonk-logo
@@ -362,7 +374,7 @@ main
     box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35);
     border-radius: 20px;
     background-color: white;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     height: 135px;
     width: 345px;
     margin-left: 30px;
@@ -502,7 +514,7 @@ main
 
 .fort-séparation
 {
-    padding-bottom: 25px;
+    padding-bottom: 0px;
 }
 
 .îles-frioul
@@ -551,7 +563,7 @@ main
 
 .nôtre-dame-modif
 {
-    padding-bottom: 25px;
+    padding-bottom: 0px;
 }
 
 .nôtre-dame
@@ -653,7 +665,7 @@ main
 
 .écart
 {
-    padding-top: 9px;
+    margin-top: 9px;
     margin-right: 125px;
 }
 
@@ -703,7 +715,6 @@ main
 
     .filter-title
     {
-        height: 15px;
         margin-bottom: 15px;
     }
 
@@ -725,7 +736,7 @@ main
 
     .number-logement-text
     {
-        padding-left: 45px;
+        margin-left: 40px;
     }
 
     .logements-retour-l
@@ -752,8 +763,6 @@ main
         box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.30); 
         box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.30);
         background-color: white;
-        min-width: 181px;
-        min-height: 85px;
         height: 192px;
         width: 370px;
         margin-bottom: 17px;
@@ -766,14 +775,14 @@ main
 
     .see-more-M
     {
-        padding-left: 28px;
-        padding-top: 5px;
+        
+        margin-left: 30px;
         font-size: 18px;
     }
 
     .catégorie-input-padding
     {
-        padding-bottom: 25px;
+        margin-bottom: 25px;
     }
 
     .first-website-part
@@ -795,7 +804,7 @@ main
 
     .title-hébergement-marseille
     {
-        margin-left: 25px;
+        margin-left: 30px;
     }
 
     .héberg-M-part1
@@ -817,6 +826,15 @@ main
         padding-right: 0px;
     }
 
+    .input-all-annonces
+    {
+        text-decoration: none;
+        color: black;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
     .bloc-most-popular
     {
         border-radius: 0px;
@@ -826,8 +844,7 @@ main
 
     .most-pop-title
     {
-        padding-left: 18px;
-        margin-bottom: 15px;
+        margin-left: 14px;
     }
 
     .stonk-logo
@@ -838,8 +855,8 @@ main
     .most-pop-box
     {
         margin-left: 10px;
-        margin-bottom: 15px;
-        margin-top: 0px;
+        margin-bottom: 5px;
+        margin-top: 20px;
     }
 
     .all-activity
