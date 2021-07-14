@@ -254,6 +254,16 @@ main
     font-size: 20px;
 }
 
+.input-all-pop-annonces
+{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
 .input-all-annonces
 {
     text-decoration: none;
@@ -261,6 +271,8 @@ main
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
 }
 
 .héberg-M-part1
@@ -268,7 +280,7 @@ main
     display: flex;
     margin-top: 18px;
     margin-bottom: 7px;
-    padding-left: 8px;
+    margin-left: 8px;
     flex-wrap: wrap;
 }
 
@@ -407,8 +419,8 @@ main
 .most-pop-night-price
 {
     font-size: 14px;
-    padding-top: 3px;
-    padding-bottom: 65px;
+    margin-top: 3px;
+    margin-bottom: 55px;
 }
 
 .most-pop-night-price-mid
@@ -450,9 +462,9 @@ main
 {
     font-weight: bold;
     font-size: 20px;
-    padding-top: 35px;
-    padding-bottom: 15px;
-    padding-left: 8px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    margin-left: 8px;
 }
 
 .cadre-vieux-port
@@ -478,9 +490,9 @@ main
 {
     font-weight: bold;
     font-size: 18px;
-    padding-bottom: 12px;
-    padding-left: 7px;
-    padding-top: 8px;
+    margin-bottom: 12px;
+    margin-left: 7px;
+    margin-top: 8px;
 }
 
 .titre-activité-spe
@@ -488,8 +500,8 @@ main
     font-weight: bold;
     font-size: 18px;
     padding-bottom: 12px;
-    padding-left: 7px;
-    padding-top: 8px;
+    margin-left: 7px;
+    margin-top: 8px;
     display: flex;
 }
 
@@ -514,7 +526,7 @@ main
 
 .fort-séparation
 {
-    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .îles-frioul
@@ -538,8 +550,8 @@ main
 
 .parc-ali
 {
-    padding-left:  45px;
-    padding-right: 45px;
+    margin-left:  45px;
+    margin-right: 45px;
 }
 
 .parc-canalaques
@@ -563,7 +575,7 @@ main
 
 .nôtre-dame-modif
 {
-    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .nôtre-dame
@@ -608,12 +620,13 @@ main
 {
     display: flex;
     padding-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .îles-fort-column
 {
     flex-direction: column;
-    padding-left: 45px;
+    margin-left: 45px;
 }
 
 .dame-parc-culumn
@@ -692,6 +705,8 @@ main
     {
         
     }
+    
+
 
     .research-logo-queries
     {
@@ -703,9 +718,17 @@ main
         border: black;
         border-radius: 15px 15px 15px 15px;
         padding: 12px;
-        margin-right: 20px;
         visibility: initial;
         background-color: blue;
+        position: absolute;
+        right: 0px;
+
+    }
+
+    .search-text-area
+    {
+        width: 100%;
+        border-radius: 0px 20px 20px 0px;
     }
 
     .filter-section
@@ -835,11 +858,15 @@ main
         margin-bottom: 0px;
     }
 
+    .all-annonces-most-pop
+    {
+        display: flex;
+    }
+
     .bloc-most-popular
     {
         border-radius: 0px;
-        width: 370px;
-        height: 535px;
+        width: 100%;
     }
 
     .most-pop-title
