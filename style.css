@@ -356,8 +356,6 @@ main
     border-radius: 22px;
     border: 2px solid #f5f5f5;
     background-color: #f5f5f5;
-    min-width: 325px;
-    min-height: 450px;
     margin-left: 35px;
     width: 415px;
     height: 550px;
@@ -369,13 +367,13 @@ main
     font-size: 20px;
     position: relative;
     margin-top: 18px;
-    margin-bottom: 6px;
+    margin-bottom: 24px;
     margin-left: 40px;
 }
 
 .stonk-logo
 {
-    padding-left: 145px;
+    margin-left: 145px;
 }
 
 .most-pop-box
@@ -390,6 +388,7 @@ main
     height: 135px;
     width: 345px;
     margin-left: 30px;
+    text-decoration: none;
 }
 
 .most-pop-image
@@ -550,8 +549,8 @@ main
 
 .parc-ali
 {
-    margin-left:  45px;
-    margin-right: 45px;
+    margin-left:  0px;
+    margin-right: 0px;
 }
 
 .parc-canalaques
@@ -620,13 +619,11 @@ main
 {
     display: flex;
     padding-bottom: 40px;
-    flex-wrap: wrap;
 }
 
 .îles-fort-column
 {
     flex-direction: column;
-    margin-left: 45px;
 }
 
 .dame-parc-culumn
@@ -644,6 +641,66 @@ main
 
 
 
+
+@media all and (max-width: 1200px)
+{
+
+    .first-website-part
+    {
+        flex-direction: column-reverse;
+    }
+
+    .héberg-M-part1
+    {
+        
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .annonce-M-image
+    {
+        width: 324px;
+    }
+
+    .annonce-M-box
+    {
+        width: 330px;
+    }
+
+    .see-more-M
+    {
+        
+        margin-left: 35px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .bloc-most-popular
+    {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .all-annonces-most-pop
+    {
+        display: flex;
+        height: 30px;
+    }
+
+    .stonk-logo
+    {
+        margin-left: 885px;
+    }
+
+
+
+
+
+
+
+}
 
 
 
@@ -876,7 +933,7 @@ main
 
     .stonk-logo
     {
-        padding-left: 148px;
+        margin-left: 148px;
     }
 
     .most-pop-box
@@ -1061,3 +1118,5 @@ main
         flex-direction: column;
     }
 }
+
+
