@@ -694,6 +694,166 @@ main
         margin-left: 885px;
     }
 
+    .all-activity
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cadre-vieux-port
+    {
+        flex-direction: column;
+        border-bottom: 2px solid #e6e6e6;
+        border-left: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+        background-color: white;
+        border-radius: 25px 25px 20px 20px;
+        width: 335px;
+        height: 192px;
+        margin-bottom: 17px;
+    }
+
+    .image-vieux-port
+    {
+        width: 335px;
+	    height: 150px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .fort-pomègue
+    {
+        flex-direction: column;
+        border-bottom: 2px solid #e6e6e6;
+        border-left: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+        background-color: white;
+        border-radius: 25px 25px 20px 20px;
+        width: 335px;
+        height: 192px;
+        margin-bottom: 17px;
+    }
+
+    .fort-séparation
+    {
+        padding-bottom: 0px;
+    }
+
+    .îles-fort-column
+    {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image-pomègue
+    {
+        width: 335px;
+	    height: 150px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .îles-frioul
+    {
+        flex-direction: column;
+        border-bottom: 2px solid #e6e6e6;
+        border-left: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+        background-color: white;
+        border-radius: 25px 25px 20px 20px;
+        width: 335px;
+        height: 192px;
+        margin-bottom: 17px;
+    }
+
+    .image-frioul
+    {
+        width: 335px;
+	    height: 150px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .parc-ali
+    {
+        padding-left:  0px;
+        padding-right: 0px;
+    }
+
+    .parc-canalaques
+    {
+        flex-direction: column;
+        border-bottom: 2px solid #e6e6e6;
+        border-left: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+        background-color: white;
+        border-radius: 25px 25px 20px 20px;
+        width: 335px;
+        height: 192px;
+        margin-bottom: 17px;
+    }
+
+    .image-canalaques
+    {
+        width: 335px;
+	    height: 150px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .nôtre-dame-modif
+    {
+        padding-bottom: 0px;
+    }   
+
+    .nôtre-dame
+    {
+        flex-direction: column;
+        border-bottom: 2px solid #e6e6e6;
+        border-left: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+        background-color: white;
+        border-radius: 25px 25px 20px 20px;
+        width: 335px;
+        height: 192px;
+        margin-bottom: 17px;
+    }
+
+    .dame-parc-culumn
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .image-nôtre-dame
+    {
+        width: 335px;
+	    height: 150px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .Longchamp
+    {
+        flex-direction: column;
+        border-bottom: 2px solid #e6e6e6;
+        border-left: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+        background-color: white;
+        border-radius: 25px 25px 20px 20px;
+        width: 335px;
+        height: 192px;
+        margin-bottom: 17px;
+    }
+
+    .image-Longchamp
+    {
+        width: 335px;
+	    height: 150px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
 
 
 
