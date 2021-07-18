@@ -424,7 +424,7 @@ main
 
 .most-pop-night-price-mid
 {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .most-pop-blue-stars
@@ -685,7 +685,7 @@ main
 
     .all-annonces-most-pop
     {
-        display: flex;
+        display: flex;  
         height: 30px;
     }
 
@@ -699,6 +699,7 @@ main
         display: flex;
         flex-wrap: wrap;
     }
+    
 
     .cadre-vieux-port
     {
@@ -950,7 +951,7 @@ main
 
     .filter-section
     {
-        flex-direction: column;
+        
     }
 
     .filter-title
@@ -965,7 +966,7 @@ main
 
     .filter-section
     {
-        padding-left: 45px;
+        margin-top: 30px;
     }
 
     .return-ligne-title
@@ -976,7 +977,7 @@ main
 
     .number-logement-text
     {
-        margin-left: 40px;
+        margin-left: 0px;
     }
 
     .logements-retour-l
@@ -1006,6 +1007,8 @@ main
         height: 192px;
         width: 370px;
         margin-bottom: 17px;
+        margin-right: 27px;
+        margin-left: 28px;
     }   
 
     .annonce-M-image
@@ -1016,7 +1019,7 @@ main
     .see-more-M
     {
         
-        margin-left: 30px;
+        margin-left: 435px;
         font-size: 18px;
     }
 
@@ -1033,25 +1036,23 @@ main
 
     .bloc-hébergement-marseille
     {
-        background-color: white;
-        border: white;
-        width: auto;
+        width: 100%;
         height: auto;
         padding-left: 10px;
         margin: auto;
         flex-wrap: wrap;
+        border-radius: 0px;
     }
 
     .title-hébergement-marseille
     {
-        margin-left: 30px;
+        margin-left: 360px;
     }
 
     .héberg-M-part1
     {
-        flex-direction: column;
         margin-bottom: 0px;
-        padding-left: 25px;
+        margin-left: 58px
     }
 
     .héberg-M-part2
@@ -1078,6 +1079,12 @@ main
     .all-annonces-most-pop
     {
         display: flex;
+        justify-content: space-around;
+    }
+
+    .most-pop-night-price-mid 
+    {
+        margin-bottom: 35px;
     }
 
     .bloc-most-popular
@@ -1089,16 +1096,18 @@ main
     .most-pop-title
     {
         margin-left: 14px;
+        margin-bottom: 10px;
     }
 
     .stonk-logo
     {
-        margin-left: 148px;
+        margin-left: 770px;
     }
 
     .most-pop-box
     {
-        margin-left: 10px;
+        margin-left: 4px;
+        margin-right: 7px;
         margin-bottom: 5px;
         margin-top: 20px;
     }
