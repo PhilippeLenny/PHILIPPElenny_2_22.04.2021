@@ -309,8 +309,8 @@ main
 
 .annonce-M-text-align
 {
-    padding-left: 7px;
-    padding-top: 4px;
+    margin-left: 7px;
+    margin-top: 4px;
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -907,17 +907,7 @@ main
 
 @media all and (max-width: 1024px)
 {
-    .search-input-right
-    {
-        display: none;
-    }
-
-    .search-bar
-    {
-        padding-top: 12px;
-        display: flex;
-        min-width: 60px;
-    }
+   
 
     .research-bloc-queries
     {
@@ -931,22 +921,11 @@ main
         padding-left: 0px;
     }
 
-    .logo-loupe
-    {
-        border: black;
-        border-radius: 15px 15px 15px 15px;
-        padding: 12px;
-        visibility: initial;
-        background-color: blue;
-        position: absolute;
-        right: 0px;
-
-    }
 
     .search-text-area
     {
         width: 100%;
-        border-radius: 0px 20px 20px 0px;
+        border-radius: 0px 0px 0px 0px;
     }
 
     .filter-section
@@ -1082,6 +1061,11 @@ main
         justify-content: space-around;
     }
 
+    .most-pop-night-price
+    {
+        margin-bottom: 55px;
+    }
+
     .most-pop-night-price-mid 
     {
         margin-bottom: 35px;
@@ -1114,8 +1098,10 @@ main
 
     .all-activity
     {
-        flex-direction: column;
-        padding-left: 30px;
+        margin-left: 30px;
+        flex-wrap: wrap;
+        display: flex;
+
     }
 
     .title-activités-Mar
@@ -1124,152 +1110,96 @@ main
         padding-bottom: 20px;
     }
 
-    .cadre-vieux-port
-    {
-        flex-direction: column;
-        border-bottom: 2px solid #e6e6e6;
-        border-left: 2px solid #e6e6e6;
-        border-right: 2px solid #e6e6e6;
-        background-color: white;
-        border-radius: 25px 25px 20px 20px;
-        width: 370px;
-        height: 192px;
-        margin-bottom: 17px;
-    }
-
-    .image-vieux-port
-    {
-        width: 370px;
-	    height: 150px;
-        border-radius: 20px 20px 0px 0px;
-        object-fit: cover;
-    }
-
-    .fort-pomègue
-    {
-        flex-direction: column;
-        border-bottom: 2px solid #e6e6e6;
-        border-left: 2px solid #e6e6e6;
-        border-right: 2px solid #e6e6e6;
-        background-color: white;
-        border-radius: 25px 25px 20px 20px;
-        width: 370px;
-        height: 192px;
-        margin-bottom: 17px;
-    }
-
-    .fort-séparation
-    {
-        padding-bottom: 0px;
-    }
-
     .îles-fort-column
     {
-        padding-left: 0px;
+        flex-direction: row;
     }
 
-    .image-pomègue
+
+
+
+
+
+
+    @media all and (max-width: 768px)
     {
-        width: 370px;
-	    height: 150px;
-        border-radius: 20px 20px 0px 0px;
-        object-fit: cover;
+        .bloc-hébergement-marseille
+        {
+            
+        }
+
+        .filter-section
+        {
+            margin-bottom: 50px;
+        }
+
+        .most-pop-title
+        {
+            margin-bottom: 0px;
+        }
+
+        .most-pop-box
+        {
+            margin-top: 10px;
+        }
+
+        .most-pop-image
+        {
+            width: 95px;
+        }
+
+        .most-pop-night-price
+        {
+            margin-bottom: 40px;
+        }
+
+        .most-pop-night-price-mid
+        {
+            margin-bottom: 5px;
+        }
+
+
+
+
+
+        .title-hébergement-marseille
+        {
+            margin-left: 236px;
+        }
+
+        .héberg-M-part1
+        {
+            margin-left: 85px;
+        }
+
+        .annonce-M-box
+        {
+            width: 500px;
+        }
+        
+        .annonce-M-image
+        {
+            width: 493px;
+        }
+        
+        .annonce-M-text-align
+        {
+            text-align: center;
+            margin-right: 10px;
+        }
+
+        .see-more-M
+        {
+            margin-left: 310px;
+            margin-top: 10px;
+        }
     }
 
-    .îles-frioul
-    {
-        flex-direction: column;
-        border-bottom: 2px solid #e6e6e6;
-        border-left: 2px solid #e6e6e6;
-        border-right: 2px solid #e6e6e6;
-        background-color: white;
-        border-radius: 25px 25px 20px 20px;
-        width: 370px;
-        height: 192px;
-        margin-bottom: 17px;
-    }
-
-    .image-frioul
-    {
-        width: 370px;
-	    height: 150px;
-        border-radius: 20px 20px 0px 0px;
-        object-fit: cover;
-    }
-
-    .parc-ali
-    {
-        padding-left:  0px;
-        padding-right: 0px;
-    }
-
-    .parc-canalaques
-    {
-        flex-direction: column;
-        border-bottom: 2px solid #e6e6e6;
-        border-left: 2px solid #e6e6e6;
-        border-right: 2px solid #e6e6e6;
-        background-color: white;
-        border-radius: 25px 25px 20px 20px;
-        width: 370px;
-        height: 192px;
-        margin-bottom: 17px;
-    }
-
-    .image-canalaques
-    {
-        width: 370px;
-	    height: 150px;
-        border-radius: 20px 20px 0px 0px;
-        object-fit: cover;
-    }
-
-    .nôtre-dame-modif
-    {
-        padding-bottom: 0px;
-    }   
-
-    .nôtre-dame
-    {
-        flex-direction: column;
-        border-bottom: 2px solid #e6e6e6;
-        border-left: 2px solid #e6e6e6;
-        border-right: 2px solid #e6e6e6;
-        background-color: white;
-        border-radius: 25px 25px 20px 20px;
-        width: 370px;
-        height: 192px;
-        margin-bottom: 17px;
-    }
     
-    .image-nôtre-dame
-    {
-        width: 370px;
-	    height: 150px;
-        border-radius: 20px 20px 0px 0px;
-        object-fit: cover;
-    }
 
-    .Longchamp
-    {
-        flex-direction: column;
-        border-bottom: 2px solid #e6e6e6;
-        border-left: 2px solid #e6e6e6;
-        border-right: 2px solid #e6e6e6;
-        background-color: white;
-        border-radius: 25px 25px 20px 20px;
-        width: 370px;
-        height: 192px;
-        margin-bottom: 17px;
-    }
 
-    .image-Longchamp
-    {
-        width: 370px;
-	    height: 150px;
-        border-radius: 20px 20px 0px 0px;
-        object-fit: cover;
-    }
+
+
 
     .cadre-footer
     {
@@ -1278,8 +1208,7 @@ main
 
     .trie-footer
     {
-        flex-direction: column;
-        margin-left: 30px;
+        margin-left: 80px;
     }
 
     .catégorie-footer
