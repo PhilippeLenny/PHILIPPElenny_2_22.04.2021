@@ -13,7 +13,7 @@ body
     font-family: 'Raleway', sans-serif;
 }
 
-#logoreservia
+.logoreservia
 {
     margin-bottom: 30px;
     padding-top: 35px;
@@ -259,7 +259,6 @@ main
     text-decoration: none;
     color: black;
     margin-right: 25px;
-    margin-bottom: 25px;
     display: flex;
     flex-direction: row;
 }
@@ -292,13 +291,16 @@ main
     box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35);
     background-color: white;
     height: 192px;
+    min-width: 267px;
+    max-width: 520px;
     width: auto;
-    flex-wrap: wrap;
 }
 
 .annonce-M-image
 {
-	width: 260px;
+	min-width: 260px;
+    max-width: 500px;
+    width: auto;
 	height: 125px;
     border-radius: 20px 20px 0px 0px;
     margin-left: 3px;
@@ -369,11 +371,22 @@ main
     margin-top: 18px;
     margin-bottom: 24px;
     margin-left: 40px;
+    min-width: 200px;
 }
 
 .stonk-logo
 {
-    margin-left: 145px;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-right: 30px;
+}
+
+.most-pop-title-box
+{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .most-pop-box
@@ -387,7 +400,7 @@ main
     margin-bottom: 13px;
     height: 135px;
     width: 345px;
-    margin-left: 30px;
+    margin-left: 35px;
     text-decoration: none;
 }
 
@@ -406,6 +419,8 @@ main
     padding-top: 7px;
     padding-left: 10px;
     flex-direction: column;
+    display: flex;
+    justify-content: space-between;
 }
 
 .most-pop-annonce-title
@@ -419,12 +434,18 @@ main
 {
     font-size: 14px;
     margin-top: 3px;
-    margin-bottom: 55px;
+    margin-bottom: auto;
 }
 
 .most-pop-night-price-mid
 {
-    margin-bottom: 50px;
+    margin-bottom: auto;
+}
+
+.all-stars-most-pop
+{
+   display: flex; 
+   margin-bottom: 5px;
 }
 
 .most-pop-blue-stars
@@ -644,6 +665,35 @@ main
 
 @media all and (max-width: 1200px)
 {
+    .logoreservia
+    {
+        margin-left: 15px;
+    }
+
+    .first-title
+    {
+        margin-left: 15px;
+    }
+
+    .subtitle
+    {
+        margin-left: 15px;
+    }
+
+    .search-bar
+    {
+        margin-left: 15px;
+    }
+
+    .filter-section
+    {
+        margin-left: 18px;
+    }
+
+    .number-logement-text
+    {
+        margin-left: 15px;
+    }
 
     .first-website-part
     {
@@ -691,13 +741,14 @@ main
 
     .stonk-logo
     {
-        margin-left: 885px;
+        margin-left: 0px;
     }
 
     .all-activity
     {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
     }
     
 
@@ -743,8 +794,7 @@ main
     .îles-fort-column
     {
         padding-left: 0px;
-        display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .image-pomègue
@@ -825,6 +875,7 @@ main
     {
         display: flex;
         flex-direction: row;
+        flex-direction: column;
     }
     
     .image-nôtre-dame
@@ -948,17 +999,6 @@ main
         margin-top: 30px;
     }
 
-    .return-ligne-title
-    {
-        flex-wrap: wrap;
-        padding-bottom: 5px;
-    }
-
-    .number-logement-text
-    {
-        margin-left: 0px;
-    }
-
     .logements-retour-l
     {
         display: block;
@@ -1063,12 +1103,12 @@ main
 
     .most-pop-night-price
     {
-        margin-bottom: 55px;
+        margin-bottom: auto;
     }
 
     .most-pop-night-price-mid 
     {
-        margin-bottom: 35px;
+        margin-bottom: auto;
     }
 
     .bloc-most-popular
@@ -1085,7 +1125,7 @@ main
 
     .stonk-logo
     {
-        margin-left: 770px;
+        margin-left: 0px;
     }
 
     .most-pop-box
@@ -1150,7 +1190,7 @@ main
 
         .most-pop-night-price
         {
-            margin-bottom: 40px;
+            margin-bottom: auto;
         }
 
         .most-pop-night-price-mid
@@ -1193,6 +1233,35 @@ main
             margin-left: 310px;
             margin-top: 10px;
         }
+    }
+
+
+
+
+
+    @media all and (max-width: 480px)
+    {
+        
+        .filter-section
+        {
+            margin-bottom: 90px;
+        }
+    
+        .all-annonces-most-pop
+        {
+            flex-direction: column;
+        }
+
+
+
+
+
+
+
+
+
+
+
     }
 
     
