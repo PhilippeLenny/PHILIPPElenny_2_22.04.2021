@@ -725,6 +725,11 @@ main
         font-size: 18px;
     }
 
+    .title-activités-Mar
+    {
+        margin-left: 35px;
+    }
+
     .bloc-most-popular
     {
         width: 100%;
@@ -923,7 +928,8 @@ main
     border: #e6e6e6 solid 2px;
     background-color: #e6e6e6;
     padding-bottom: 100px;
-    padding-left: 10px;
+    margin-left: 15px;
+    width: 100%;
 }
 
 .trie-footer
@@ -955,27 +961,6 @@ main
     margin-right: 250px;
 }
 
-@media all and (max-width: 1361px)
-{
-    .annonce-M-box
-    {
-        width: 378px;
-    }
-
-    .annonce-M-image
-    {
-        width: 372px
-    }
-
-
-
-
-
-
-
-
-}
-
 @media all and (max-width: 1024px)
 {
    
@@ -997,6 +982,11 @@ main
     {
         width: 100%;
         border-radius: 0px 0px 0px 0px;
+    }
+
+    .search-left-marker-logo
+    {
+        width: 47px;
     }
 
     .filter-section
@@ -1161,17 +1151,68 @@ main
         margin-left: 30px;
         flex-wrap: wrap;
         display: flex;
+        justify-content: space-around;
     }
 
     .title-activités-Mar
     {
-        padding-left: 37px;
-        padding-bottom: 20px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+
+    .all-image-activity
+    {
+        width: 400px;
     }
 
     .îles-fort-column
     {
         flex-direction: row;
+    }
+
+    .fort-pomègue
+    {
+        width: 400px;
+    }
+
+    .cadre-vieux-port
+    {
+        width: 400px;
+    }
+
+    .Longchamp
+    {
+        width: 350px;
+    }
+
+    .îles-frioul
+    {
+        width: 400px;
+    }
+
+    .parc-canalaques
+    {
+        width: 400px;
+    }
+
+    .dame-parc-culumn
+    {
+        display: contents;
+    }
+
+    .nôtre-dame
+    {
+        width: 400px;
+    }
+
+    .Longchamp
+    {
+        width: 400px;
+    }
+
+    .cadre-footer
+    {
+        margin-left: 0px;
     }
 
 
@@ -1187,9 +1228,19 @@ main
             
         }
 
+        .search-left-marker-logo
+        {
+            width: 50px;
+        }
+
         .filter-section
         {
             margin-bottom: 50px;
+        }
+
+        .bloc-most-popular
+        {
+            height: 550px;
         }
 
         .most-pop-title
@@ -1197,14 +1248,22 @@ main
             margin-bottom: 0px;
         }
 
+        .all-annonces-most-pop
+        {
+            flex-direction: column;
+            margin-top: 225px;
+            margin-left: 150px;
+        }
+
         .most-pop-box
         {
             margin-top: 10px;
+            width: 450px;
         }
 
         .most-pop-image
         {
-            width: 95px;
+            width: 170px;
         }
 
         .most-pop-night-price
@@ -1251,6 +1310,11 @@ main
         {
             margin-left: 310px;
             margin-top: 10px;
+        }
+
+        .écart
+        {
+            margin-right: 0px;
         }
     }
 
