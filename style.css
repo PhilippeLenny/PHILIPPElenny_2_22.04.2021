@@ -409,8 +409,9 @@ main
 	width: 140px;
 	height: 130px;
     border-radius: 20px 0px 0px 20px;
-    padding-left: 2px;
-    padding-top: 2px;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     object-fit: cover;
 }
 
@@ -656,7 +657,42 @@ main
 
 
 
+.cadre-footer
+{
+    border: #e6e6e6 solid 2px;
+    background-color: #e6e6e6;
+    padding-bottom: 100px;
+    width: 100%;
+}
 
+.trie-footer
+{
+    display: flex;
+    margin-left: 230px;
+}
+
+.footer-title
+{
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+.catégorie-footer
+{
+    padding-right: 125px;
+}
+
+.écart
+{
+    margin-top: 9px;
+    margin-right: 125px;
+}
+
+.nos-hébergement
+{
+    margin-right: 250px;
+}
 
 
 
@@ -912,7 +948,10 @@ main
     }
 
 
-
+    .trie-footer
+    {
+        margin-left: 170px;
+    }
 
 
 
@@ -923,43 +962,7 @@ main
 
 
 
-.cadre-footer
-{
-    border: #e6e6e6 solid 2px;
-    background-color: #e6e6e6;
-    padding-bottom: 100px;
-    margin-left: 15px;
-    width: 100%;
-}
 
-.trie-footer
-{
-    display: flex;
-    margin-left: 230px;
-}
-
-.footer-title
-{
-    font-weight: bold;
-    font-size: 18px;
-    padding-top: 25px;
-}
-
-.catégorie-footer
-{
-    padding-right: 125px;
-}
-
-.écart
-{
-    margin-top: 9px;
-    margin-right: 125px;
-}
-
-.nos-hébergement
-{
-    margin-right: 250px;
-}
 
 @media all and (max-width: 1024px)
 {
@@ -1223,11 +1226,6 @@ main
 
     @media all and (max-width: 768px)
     {
-        .bloc-hébergement-marseille
-        {
-            
-        }
-
         .search-left-marker-logo
         {
             width: 50px;
@@ -1253,6 +1251,11 @@ main
             flex-direction: column;
             margin-top: 225px;
             margin-left: 150px;
+        }
+
+        .all-annonces-most-pop
+        {
+            margin-left: 141px;
         }
 
         .most-pop-box
@@ -1287,7 +1290,7 @@ main
 
         .héberg-M-part1
         {
-            margin-left: 85px;
+            margin-left: 80px;
         }
 
         .annonce-M-box
@@ -1316,6 +1319,57 @@ main
         {
             margin-right: 0px;
         }
+
+        .all-activity
+        {
+            align-items: center;
+           margin-left: 15px;
+        }
+
+        .cadre-vieux-port
+        {
+            width: 600px;
+            margin-bottom: 25px;
+        }
+
+        .fort-pomègue
+        {
+            width: 600px;
+            margin-bottom: 25px;
+        }
+
+        .îles-frioul
+        {
+            width: 600px;
+            margin-bottom: 25px;
+        }
+
+        .parc-canalaques
+        {
+            width: 600px;
+            margin-bottom: 25px;
+        }
+
+        .nôtre-dame
+        {
+            width: 600px;
+            margin-bottom: 25px;
+        }
+
+        .Longchamp
+        {
+            width: 600px;
+        }
+
+        .all-image-activity
+        {
+            width: 600px;
+        }
+
+        .title-activités-Mar
+        {
+            margin-left: 285px;
+        }
     }
 
 
@@ -1335,10 +1389,154 @@ main
             flex-direction: column;
         }
 
+        .search-left-marker-logo
+        {
+            width: 40px;
+            height: 40px;
+            margin-left: 5px;
+        }
+
+        .search-input-right
+        {
+            display: none;
+        }
+
+        .search-bar
+        {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            display: flex;
+            min-width: 60px;
+        }
+
+        .research-logo-queries
+        {
+            padding-left: 0px;
+        }
+
+        .logo-loupe
+        {
+            border: black;
+            color: white;
+            border-radius: 15px 15px 15px 15px;
+            padding: 14px;
+            visibility: initial;
+            background-color: #2478ff;
+            position: absolute;
+            right: 0px;
+            margin-right: 10px;
+        }
+
+        .search-text-area
+        {
+            width: 85%;
+            height: 20px;
+            border-radius: 0px 20px 20px 0px;
+        }
 
 
 
 
+        .most-pop-box /* très surement pas bien de faire un aussi gros margin mais pas le choix pour le moment*/
+        {
+            width: 435px;
+            margin-right: 153px;
+        }
+
+        .most-pop-image
+        {
+            width: 170px;
+        }
+
+        .all-annonces-most-pop
+        {
+            align-items: center;
+        }
+
+
+
+
+
+        .all-activity
+        {
+            margin-left: 5px;
+        }
+
+        .cadre-vieux-port
+        {
+            width: 400px;
+            margin-bottom: 25px;
+        }
+
+        .fort-pomègue
+        {
+            width: 400px;
+            margin-bottom: 25px;
+        }
+
+        .îles-frioul
+        {
+            width: 400px;
+            margin-bottom: 25px;
+        }
+
+        .parc-canalaques
+        {
+            width: 400px;
+            margin-bottom: 25px;
+        }
+
+        .nôtre-dame
+        {
+            width: 400px;
+            margin-bottom: 25px;
+        }
+
+        .Longchamp
+        {
+            width: 400px;
+        }
+
+        .all-image-activity
+        {
+            width: 400px;
+        }
+
+        .title-activités-Mar
+        {
+            margin-left: 135px;
+        }
+
+
+
+        
+        .title-hébergement-marseille
+        {
+            margin-left: 100px;
+        }
+
+        .see-more-M
+        {
+            margin-left: 165px;
+        }
+
+        .héberg-M-part1
+        {
+            margin-left: 35px;
+        }
+
+        .annonce-M-box
+        {
+            width: 370px;
+            margin-left: 0px;
+        }
+
+        .annonce-M-image
+        {
+            width: 364px;
+        }
+        
 
 
 
@@ -1363,9 +1561,10 @@ main
         margin-left: 80px;
     }
 
-    .catégorie-footer
+    .trie-footer
     {
         flex-direction: column;
+        align-items: flex-start;
     }
 }
 
