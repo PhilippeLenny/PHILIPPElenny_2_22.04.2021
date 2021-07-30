@@ -28,12 +28,23 @@ body
 
 .header-inscription
 {
-    padding-right: 50px;
+    margin-right: 10px;
 }
 
 .hébergement-activités-header
 {
-    padding-right: 80px;
+    margin-right: 80px;
+}
+
+.all-top-right-element
+{
+    display: flex;
+}
+
+
+.activity-hébergement-top
+{
+    margin-left: 750px;
 }
 
 
@@ -394,6 +405,7 @@ main
     border-radius: 20px;
     background-color: white;
     margin-bottom: 13px;
+    margin-left: 35px;
     height: 135px;
     width: 345px;
     text-decoration: none;
@@ -671,6 +683,8 @@ main
 .trie-footer
 {
     display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
 }
 
 .footer-title
@@ -697,11 +711,38 @@ main
 }
 
 
-@media all and (max-width: 1355px)
+@media all and (max-width: 1352px)
 {
     .annonce-M-box
     {
         width: 330px;
+    }
+
+    .all-image-activity
+    {
+        height: 180px;
+        width: 100%;
+    }
+
+    .activity-ajustement
+    {
+        height: 220px;
+        width: 350px;
+    }
+
+    .îles-fort-column
+    {
+        display: contents;
+    }
+
+    .dame-parc-culumn
+    {
+        display: contents;
+    }
+
+    .title-activités-Mar
+    {
+        margin-left: 50px;
     }
 }
 
@@ -950,6 +991,11 @@ main
         object-fit: cover;
     }
 
+    .trie-footer
+    {
+        margin-left: 55px;
+    }
+
 }
 
 
@@ -1039,8 +1085,9 @@ main
 
     .see-more-M
     {
-        
-        margin-left: 435px;
+        text-align: center;
+        margin-right: 30px;
+        margin-bottom: 20px;
         font-size: 18px;
     }
 
@@ -1066,7 +1113,8 @@ main
 
     .title-hébergement-marseille
     {
-        margin-left: 360px;
+        text-align: center;
+        margin-right: 30px;
     }
 
     .héberg-M-part1
@@ -1145,7 +1193,8 @@ main
 
     .title-activités-Mar
     {
-        margin-left: 80px;
+        text-align: center;
+        margin-right: 30px;
         margin-bottom: 20px;
     }
 
@@ -1297,7 +1346,8 @@ main
 
         .title-hébergement-marseille
         {
-            margin-left: 236px;
+            text-align: center;
+            margin-right: 30px;
         }
 
         .héberg-M-part1
@@ -1320,7 +1370,8 @@ main
 
         .see-more-M
         {
-            margin-left: 310px;
+            text-align: center;
+            margin-right: 30px;
             margin-top: 10px;
         }
 
@@ -1363,11 +1414,6 @@ main
         {
             margin-bottom: 25px;
         }
-
-        .title-activités-Mar
-        {
-            margin-left: 285px;
-        }
     }
 
 
@@ -1394,12 +1440,20 @@ main
     {
         .filter-section
         {
-            margin-bottom: 90px;
+            margin-bottom: 50px;
         }
 
         .search-left-marker-logo
         {
             width: 60px;
+        }
+    }
+
+    @media all and (max-width: 515px)
+    {
+        .filter-section
+        {
+            margin-bottom: 85px;
         }
     }
 
@@ -1409,7 +1463,7 @@ main
         
         .filter-section
         {
-            margin-bottom: 50px;
+            margin-bottom: 45px;
             flex-direction: column;
         }
 
@@ -1521,23 +1575,16 @@ main
         {
             width: 400px;
         }
-
-        .title-activités-Mar
-        {
-            margin-left: 135px;
-        }
-
-
-
         
         .title-hébergement-marseille
         {
-            margin-left: 100px;
+            text-align: center;
+
         }
 
         .see-more-M
         {
-            margin-left: 165px;
+            text-align: center;
         }
 
         .annonce-M-box
@@ -1546,8 +1593,19 @@ main
             margin-left: 0px;
         }
 
+        .trie-footer
+        {
+           margin-left: 40px;
+        }
+    }
 
-
+    @media all and (max-width: 474px)
+    {
+        .logements-retour-l
+        {
+            display: block;
+            margin-left: 25px;
+        }
     }
 
     @media all and (max-width: 455px)
@@ -1560,9 +1618,29 @@ main
     
     @media all and (max-width: 451px)
     {
-        .filter-section
+        .most-pop-box
         {
-            margin-bottom: 90px;
+            width: 280px;
+        }
+
+        .most-pop-image
+        {
+            width: 100px;
+        }
+
+        .title-hébergement-marseille
+        {
+            margin-right: 40px;
+        }
+
+        .annonce-M-box
+        {
+            width: 280px;
+        }
+
+        .activity-ajustement
+        {
+            width: 280px;
         }
     }
 
@@ -1574,8 +1652,6 @@ main
             margin-bottom: 125px;
         }
     }
-
-
 
     .cadre-footer
     {
