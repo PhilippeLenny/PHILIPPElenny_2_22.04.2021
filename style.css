@@ -148,19 +148,18 @@ main
 .filter-section
 {
     display: flex;
-    margin-top: 20px;
-    padding-top: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .filter-title
 {
     font-weight: bold;
-    padding-right: 15px;
+    margin-right: 15px;
 }
 
 .catégorie-bloc
 {
-    margin-left: 15px;
     display: flex;
     font-weight: bold;
 }
@@ -217,7 +216,6 @@ main
 
 .number-logement-text
 {
-    margin-top: 25px;;
     padding-bottom: 20px;
 }
 
@@ -267,9 +265,9 @@ main
 {
     text-decoration: none;
     color: black;
-    margin-left: 25px;
-    margin-right: 25px;
     margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
     display: flex;
     flex-direction: row;
 }
@@ -279,8 +277,8 @@ main
     display: flex;
     margin-top: 18px;
     margin-bottom: 7px;
-    margin-left: 8px;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .annonce-M-box
@@ -292,21 +290,17 @@ main
     background-color: white;
     height: 192px;
     min-width: 267px;
-    max-width: 520px;
-    width: auto;
+    padding: 5px;
 }
 
 .annonce-M-image
 {
 	min-width: 260px;
-    max-width: 500px;
     width: auto;
 	height: 125px;
     border-radius: 20px 20px 0px 0px;
-    margin-left: 3px;
-    margin-right: 3px;
-    margin-top: 3px;
     object-fit: cover;
+    width: 100%;
 }
 
 .annonce-M-text-align
@@ -389,6 +383,8 @@ main
     justify-content: space-between;
 }
 
+
+
 .most-pop-box
 {
     display: flex;
@@ -400,7 +396,6 @@ main
     margin-bottom: 13px;
     height: 135px;
     width: 345px;
-    margin-left: 35px;
     text-decoration: none;
 }
 
@@ -641,6 +636,14 @@ main
 {
     display: flex;
     margin-bottom: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.activity-ajustement
+{
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .îles-fort-column
@@ -668,7 +671,6 @@ main
 .trie-footer
 {
     display: flex;
-    margin-left: 230px;
 }
 
 .footer-title
@@ -695,9 +697,13 @@ main
 }
 
 
-
-
-
+@media all and (max-width: 1355px)
+{
+    .annonce-M-box
+    {
+        width: 330px;
+    }
+}
 
 @media all and (max-width: 1200px)
 {
@@ -739,13 +745,9 @@ main
     .héberg-M-part1
     {
         
-        margin-right: 0px;
+        margin-right: 5px;
+        margin-left: 5px;
         margin-bottom: 0px;
-    }
-
-    .annonce-M-image
-    {
-        width: 324px;
     }
 
     .annonce-M-box
@@ -916,6 +918,7 @@ main
     {
         display: flex;
         flex-direction: row;
+        display: contents;
     }
     
     .image-nôtre-dame
@@ -947,18 +950,27 @@ main
         object-fit: cover;
     }
 
-
-    .trie-footer
-    {
-        margin-left: 170px;
-    }
-
-
-
 }
 
 
 
+@media all and (max-width: 1093px)
+{
+    .annonce-M-box
+    {
+        width: 450px;
+    }
+
+    .activity-ajustement
+    {
+        width: 450px;
+    }
+
+    .all-image-activity
+    {
+        width: 100%;
+    }
+}
 
 
 
@@ -966,14 +978,6 @@ main
 
 @media all and (max-width: 1024px)
 {
-   
-
-    .research-bloc-queries
-    {
-        
-    }
-    
-
 
     .research-logo-queries
     {
@@ -994,12 +998,7 @@ main
 
     .filter-section
     {
-        
-    }
-
-    .filter-title
-    {
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
 
     .catégorie-bloc
@@ -1010,12 +1009,6 @@ main
     .filter-section
     {
         margin-top: 30px;
-    }
-
-    .logements-retour-l
-    {
-        display: block;
-        padding-left: 25px;
     }
 
     .retour-ligne-roman-animaux
@@ -1037,16 +1030,12 @@ main
         box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.30);
         background-color: white;
         height: 192px;
-        width: 370px;
+        width: 430px;
+        margin-left: 5px;
+        margin-right: 5px;
         margin-bottom: 17px;
-        margin-right: 27px;
-        margin-left: 28px;
     }   
 
-    .annonce-M-image
-    {
-        width: 364px;
-    }
 
     .see-more-M
     {
@@ -1070,7 +1059,6 @@ main
     {
         width: 100%;
         height: auto;
-        padding-left: 10px;
         margin: auto;
         flex-wrap: wrap;
         border-radius: 0px;
@@ -1084,7 +1072,6 @@ main
     .héberg-M-part1
     {
         margin-bottom: 0px;
-        margin-left: 58px
     }
 
     .héberg-M-part2
@@ -1151,7 +1138,6 @@ main
 
     .all-activity
     {
-        margin-left: 30px;
         flex-wrap: wrap;
         display: flex;
         justify-content: space-around;
@@ -1161,11 +1147,6 @@ main
     {
         margin-left: 80px;
         margin-bottom: 20px;
-    }
-
-    .all-image-activity
-    {
-        width: 400px;
     }
 
     .îles-fort-column
@@ -1220,8 +1201,44 @@ main
 
 
 
+    @media all and (max-width: 934px)
+    {
+        .annonce-M-box
+        {
+            width: 370px;
+        }
 
+        .most-pop-image
+        {
+            width: 100px;
+        }
 
+        .activity-ajustement
+        {
+            width: 370px;
+        }
+    }
+
+    @media all and (max-width: 879px)
+    {
+        .filter-section
+        {
+            margin-bottom: 40px;
+        }
+    }
+
+    @media all and (max-width: 814px)
+    {
+        .annonce-M-box
+        {
+            width: 330px;
+        }
+
+        .activity-ajustement
+        {
+            width: 330px;
+        }
+    }
 
 
     @media all and (max-width: 768px)
@@ -1249,19 +1266,14 @@ main
         .all-annonces-most-pop
         {
             flex-direction: column;
+            align-items: center;
             margin-top: 225px;
-            margin-left: 150px;
-        }
-
-        .all-annonces-most-pop
-        {
-            margin-left: 141px;
         }
 
         .most-pop-box
         {
             margin-top: 10px;
-            width: 450px;
+            width: 650px;
         }
 
         .most-pop-image
@@ -1290,18 +1302,15 @@ main
 
         .héberg-M-part1
         {
-            margin-left: 80px;
+            align-items: center;
         }
 
         .annonce-M-box
         {
-            width: 500px;
+            width: 650px;
         }
         
-        .annonce-M-image
-        {
-            width: 493px;
-        }
+       
         
         .annonce-M-text-align
         {
@@ -1323,47 +1332,36 @@ main
         .all-activity
         {
             align-items: center;
-           margin-left: 15px;
+        }
+
+        .activity-ajustement
+        {
+            width: 650px;
         }
 
         .cadre-vieux-port
         {
-            width: 600px;
             margin-bottom: 25px;
         }
 
         .fort-pomègue
         {
-            width: 600px;
             margin-bottom: 25px;
         }
 
         .îles-frioul
         {
-            width: 600px;
             margin-bottom: 25px;
         }
 
         .parc-canalaques
         {
-            width: 600px;
             margin-bottom: 25px;
         }
 
         .nôtre-dame
         {
-            width: 600px;
             margin-bottom: 25px;
-        }
-
-        .Longchamp
-        {
-            width: 600px;
-        }
-
-        .all-image-activity
-        {
-            width: 600px;
         }
 
         .title-activités-Mar
@@ -1373,7 +1371,37 @@ main
     }
 
 
+    @media all and (max-width: 700px)
+    {
+        .activity-ajustement
+        {
+            width: 450px;
+        }
 
+        .annonce-M-box
+        {
+            width: 450px;
+        }
+
+        .most-pop-box
+        {
+            width: 450px;
+        }
+            
+    }
+
+    @media all and (max-width: 531px)
+    {
+        .filter-section
+        {
+            margin-bottom: 90px;
+        }
+
+        .search-left-marker-logo
+        {
+            width: 60px;
+        }
+    }
 
 
     @media all and (max-width: 480px)
@@ -1381,7 +1409,13 @@ main
         
         .filter-section
         {
-            margin-bottom: 90px;
+            margin-bottom: 50px;
+            flex-direction: column;
+        }
+
+        .filter-title
+        {
+            margin-bottom: 20px;
         }
     
         .all-annonces-most-pop
@@ -1438,25 +1472,15 @@ main
 
 
 
-        .most-pop-box /* très surement pas bien de faire un aussi gros margin mais pas le choix pour le moment*/
+        .most-pop-box 
         {
-            width: 435px;
-            margin-right: 153px;
+            width: 380px;
         }
 
         .most-pop-image
         {
             width: 170px;
         }
-
-        .all-annonces-most-pop
-        {
-            align-items: center;
-        }
-
-
-
-
 
         .all-activity
         {
@@ -1498,11 +1522,6 @@ main
             width: 400px;
         }
 
-        .all-image-activity
-        {
-            width: 400px;
-        }
-
         .title-activités-Mar
         {
             margin-left: 135px;
@@ -1521,44 +1540,46 @@ main
             margin-left: 165px;
         }
 
-        .héberg-M-part1
-        {
-            margin-left: 35px;
-        }
-
         .annonce-M-box
         {
-            width: 370px;
+            width: 380px;
             margin-left: 0px;
         }
-
-        .annonce-M-image
-        {
-            width: 364px;
-        }
-        
-
-
-
 
 
 
     }
 
+    @media all and (max-width: 455px)
+    {
+        .filter-section
+        {
+            margin-bottom: 90px;
+        }
+    }
     
+    @media all and (max-width: 451px)
+    {
+        .filter-section
+        {
+            margin-bottom: 90px;
+        }
+    }
 
-
+    
+    @media all and (max-width: 375px)
+    {
+        .filter-section
+        {
+            margin-bottom: 125px;
+        }
+    }
 
 
 
     .cadre-footer
     {
         padding-bottom: 30px;
-    }
-
-    .trie-footer
-    {
-        margin-left: 80px;
     }
 
     .trie-footer
