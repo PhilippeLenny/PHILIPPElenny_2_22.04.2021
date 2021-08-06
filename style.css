@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 header
 {
     display: flex;
@@ -8,6 +10,11 @@ header
     font-family: 'Raleway', sans-serif;
 }
 
+.heberg-activity
+{
+    display: flex;
+}
+
 body
 {
     font-family: 'Raleway', sans-serif;
@@ -16,24 +23,30 @@ body
 .logoreservia
 {
     margin-bottom: 30px;
-    padding-top: 35px;
+    margin-top: 35px;
+    width: 100%;
 }
 
 .inscription-input-deco
 {
-    font-size: 18px;
+    font-size: 1.2rem;
     text-decoration: none;
     color: #2478ff;
 }
 
-.header-inscription
+.top-menu
 {
-    margin-right: 10px;
+    display: flex;
 }
 
 .hébergement-activités-header
 {
-    margin-right: 80px;
+    margin-right: 70px;
+}
+
+.hébergement-activités-header-ins
+{
+    margin-right: 10px;
 }
 
 .all-top-right-element
@@ -60,14 +73,14 @@ body
 
 .text-decoration-input
 {
-    font-size: 18px;
+    font-size: 1.2rem;
     text-decoration: none;
     color: black;
 }
 
 .text-decoration-input-heberg
 {
-    font-size: 18px;
+    font-size: 1.2rem;
     text-decoration: none;
     color: #2478ff;
 }
@@ -76,8 +89,6 @@ body
 {
     list-style-type: none;
     display: flex;
-    flex-direction: row-reverse;
-    position: relative;
 }
 
 .catégorie-input-padding
@@ -94,11 +105,13 @@ main
 {
     max-width: 1440px;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .first-title
 {
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
@@ -234,7 +247,7 @@ main
 {
     color: #2478ff;
     border: 1px solid #dee0df;
-    font-size: 10px;
+    font-size: 0.6rem;
     border-radius: 50%;
     padding: 4px;
     padding-right: 8px;
@@ -260,7 +273,7 @@ main
     font-weight: bold;
     margin-left: 39px;
     margin-top: 22px;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .input-all-pop-annonces
@@ -287,7 +300,6 @@ main
 {
     display: flex;
     margin-top: 18px;
-    margin-bottom: 7px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -336,13 +348,13 @@ main
 .annonce-M-blue-stars
 {
     color: #2478ff;
-    font-size: 12px;
+    font-size: 0.8rem;
 }
 
 .all-grey-stars
 {
     color: #d9d9d9;
-    font-size: 12px;
+    font-size: 0.8rem;
 }
 
 .héberg-M-part2
@@ -354,8 +366,9 @@ main
 .see-more-M
 {
     margin-left: 38px;
+    margin-bottom: 15px;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 1.2rem;
 }
 
 .bloc-most-popular
@@ -371,7 +384,7 @@ main
 .most-pop-title
 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.3rem;
     position: relative;
     margin-top: 18px;
     margin-bottom: 24px;
@@ -440,7 +453,7 @@ main
 
 .most-pop-night-price
 {
-    font-size: 14px;
+    font-size: 0.9rem;
     margin-top: 3px;
     margin-bottom: auto;
 }
@@ -459,7 +472,7 @@ main
 .most-pop-blue-stars
 {
     color: #2478ff;
-    font-size: 12px;
+    font-size: 0.8rem;
 }
 
 .case-M-placement-mid
@@ -489,7 +502,7 @@ main
 .title-activités-Mar
 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.4rem;
     margin-top: 35px;
     margin-bottom: 15px;
     margin-left: 8px;
@@ -517,7 +530,7 @@ main
 .titre-activité
 {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.2rem;
     margin-bottom: 12px;
     margin-left: 7px;
     margin-top: 8px;
@@ -526,7 +539,7 @@ main
 .titre-activité-spe
 {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.2rem;
     padding-bottom: 12px;
     margin-left: 7px;
     margin-top: 8px;
@@ -677,7 +690,7 @@ main
     border: #e6e6e6 solid 2px;
     background-color: #e6e6e6;
     padding-bottom: 100px;
-    width: 100%;
+    width: auto;
 }
 
 .trie-footer
@@ -690,7 +703,7 @@ main
 .footer-title
 {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.2rem;
     padding-top: 25px;
 }
 
@@ -711,7 +724,7 @@ main
 }
 
 
-@media all and (max-width: 1352px)
+@media screen and (max-width: 1352px)
 {
     .annonce-M-box
     {
@@ -746,7 +759,7 @@ main
     }
 }
 
-@media all and (max-width: 1200px)
+@media screen and (max-width: 1200px)
 {
     .logoreservia
     {
@@ -801,7 +814,7 @@ main
         
         margin-left: 35px;
         margin-bottom: 15px;
-        font-size: 18px;
+        font-size: 1.2rem;
     }
 
     .title-activités-Mar
@@ -820,6 +833,9 @@ main
     .all-annonces-most-pop
     {
         display: flex;  
+        justify-content: space-around;
+        margin-left: 0px;
+        margin-right: 35px;
         height: 30px;
     }
 
@@ -1000,7 +1016,7 @@ main
 
 
 
-@media all and (max-width: 1093px)
+@media screen and (max-width: 1093px)
 {
     .annonce-M-box
     {
@@ -1022,7 +1038,7 @@ main
 
 
 
-@media all and (max-width: 1024px)
+@media screen and (max-width: 1024px)
 {
 
     .research-logo-queries
@@ -1088,7 +1104,7 @@ main
         text-align: center;
         margin-right: 30px;
         margin-bottom: 20px;
-        font-size: 18px;
+        font-size: 1.2rem;
     }
 
     .catégorie-input-padding
@@ -1250,7 +1266,7 @@ main
 
 
 
-    @media all and (max-width: 934px)
+    @media screen and (max-width: 934px)
     {
         .annonce-M-box
         {
@@ -1268,7 +1284,7 @@ main
         }
     }
 
-    @media all and (max-width: 879px)
+    @media screen and (max-width: 879px)
     {
         .filter-section
         {
@@ -1276,7 +1292,7 @@ main
         }
     }
 
-    @media all and (max-width: 814px)
+    @media screen and (max-width: 814px)
     {
         .annonce-M-box
         {
@@ -1290,7 +1306,7 @@ main
     }
 
 
-    @media all and (max-width: 768px)
+    @media screen and (max-width: 768px)
     {
         .search-left-marker-logo
         {
@@ -1417,7 +1433,7 @@ main
     }
 
 
-    @media all and (max-width: 700px)
+    @media screen and (max-width: 700px)
     {
         .activity-ajustement
         {
@@ -1436,7 +1452,65 @@ main
             
     }
 
-    @media all and (max-width: 531px)
+    @media screen and (max-width: 670px)
+    {
+        .heberg-activity
+        {
+            display: block;
+            margin-left: 50px;
+            margin-bottom: 25px;
+        }
+
+        .hébergement-activités-header
+        {
+            margin-left: 70px;
+        }
+
+        .text-decoration-input-heberg
+        {
+            width: 50%;
+            border-bottom: 2px solid grey;
+        }
+
+        .text-decoration-input
+        {
+            border-bottom: 2px solid grey;
+            width: 50%;
+        }
+
+        .top-menu
+        {
+            justify-content: space-around;
+        }
+
+        .inscription-input-deco
+        {
+            position: relative;
+            left: 200px;
+            bottom: 70px;
+        }
+
+        header
+        {
+            display: block;
+
+        }
+
+        .heberg-activity
+        {
+            display: flex;
+        }
+        
+
+        .selected
+        {
+            border-top: none;
+        }
+
+    }
+        
+
+    @media screen and (max-width: 531px)
     {
         .filter-section
         {
@@ -1449,7 +1523,7 @@ main
         }
     }
 
-    @media all and (max-width: 515px)
+    @media screen and (max-width: 515px)
     {
         .filter-section
         {
@@ -1458,7 +1532,7 @@ main
     }
 
 
-    @media all and (max-width: 480px)
+    @media screen and (max-width: 480px)
     {
         
         .filter-section
@@ -1599,7 +1673,7 @@ main
         }
     }
 
-    @media all and (max-width: 474px)
+    @media screen and (max-width: 474px)
     {
         .logements-retour-l
         {
@@ -1608,7 +1682,7 @@ main
         }
     }
 
-    @media all and (max-width: 455px)
+    @media screen and (max-width: 455px)
     {
         .filter-section
         {
@@ -1616,7 +1690,7 @@ main
         }
     }
     
-    @media all and (max-width: 451px)
+    @media screen and (max-width: 451px)
     {
         .most-pop-box
         {
@@ -1645,7 +1719,7 @@ main
     }
 
     
-    @media all and (max-width: 375px)
+    @media screen and (max-width: 375px)
     {
         .filter-section
         {
