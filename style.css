@@ -1456,9 +1456,17 @@ main
     {
         .heberg-activity
         {
-            display: block;
-            margin-left: 50px;
+            margin-left: 10px;
             margin-bottom: 25px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .inscription-input-deco
+        {
+            position: fixed;
+            right: 10px;
+            top: 55px;
         }
 
         .hébergement-activités-header
@@ -1483,24 +1491,10 @@ main
             justify-content: space-around;
         }
 
-        .inscription-input-deco
-        {
-            position: relative;
-            left: 200px;
-            bottom: 70px;
-        }
-
         header
         {
             display: block;
-
         }
-
-        .heberg-activity
-        {
-            display: flex;
-        }
-        
 
         .selected
         {
