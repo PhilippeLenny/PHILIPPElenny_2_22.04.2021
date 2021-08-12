@@ -723,42 +723,6 @@ main
     margin-right: 250px;
 }
 
-
-@media screen and (max-width: 1352px)
-{
-    .annonce-M-box
-    {
-        width: 330px;
-    }
-
-    .all-image-activity
-    {
-        height: 180px;
-        width: 100%;
-    }
-
-    .activity-ajustement
-    {
-        height: 220px;
-        width: 350px;
-    }
-
-    .îles-fort-column
-    {
-        display: contents;
-    }
-
-    .dame-parc-culumn
-    {
-        display: contents;
-    }
-
-    .title-activités-Mar
-    {
-        margin-left: 50px;
-    }
-}
-
 @media screen and (max-width: 1200px)
 {
     .logoreservia
@@ -1014,30 +978,6 @@ main
 
 }
 
-
-
-@media screen and (max-width: 1093px)
-{
-    .annonce-M-box
-    {
-        width: 450px;
-    }
-
-    .activity-ajustement
-    {
-        width: 450px;
-    }
-
-    .all-image-activity
-    {
-        width: 100%;
-    }
-}
-
-
-
-
-
 @media screen and (max-width: 1024px)
 {
 
@@ -1264,48 +1204,7 @@ main
         margin-left: 0px;
     }
 
-
-
-    @media screen and (max-width: 934px)
-    {
-        .annonce-M-box
-        {
-            width: 370px;
-        }
-
-        .most-pop-image
-        {
-            width: 100px;
-        }
-
-        .activity-ajustement
-        {
-            width: 370px;
-        }
-    }
-
-    @media screen and (max-width: 879px)
-    {
-        .filter-section
-        {
-            margin-bottom: 40px;
-        }
-    }
-
-    @media screen and (max-width: 814px)
-    {
-        .annonce-M-box
-        {
-            width: 330px;
-        }
-
-        .activity-ajustement
-        {
-            width: 330px;
-        }
-    }
-
-
+}
     @media screen and (max-width: 768px)
     {
         .search-left-marker-logo
@@ -1432,98 +1331,6 @@ main
         }
     }
 
-
-    @media screen and (max-width: 700px)
-    {
-        .activity-ajustement
-        {
-            width: 450px;
-        }
-
-        .annonce-M-box
-        {
-            width: 450px;
-        }
-
-        .most-pop-box
-        {
-            width: 450px;
-        }
-            
-    }
-
-    @media screen and (max-width: 670px)
-    {
-        .heberg-activity
-        {
-            margin-left: 10px;
-            margin-bottom: 25px;
-            display: flex;
-            justify-content: space-around;
-        }
-
-        .inscription-input-deco
-        {
-            position: fixed;
-            right: 10px;
-            top: 55px;
-        }
-
-        .hébergement-activités-header
-        {
-            margin-left: 70px;
-        }
-
-        .text-decoration-input-heberg
-        {
-            width: 50%;
-            border-bottom: 2px solid grey;
-        }
-
-        .text-decoration-input
-        {
-            border-bottom: 2px solid grey;
-            width: 50%;
-        }
-
-        .top-menu
-        {
-            justify-content: space-around;
-        }
-
-        header
-        {
-            display: block;
-        }
-
-        .selected
-        {
-            border-top: none;
-        }
-
-    }
-        
-
-    @media screen and (max-width: 531px)
-    {
-        .filter-section
-        {
-            margin-bottom: 50px;
-        }
-
-        .search-left-marker-logo
-        {
-            width: 60px;
-        }
-    }
-
-    @media screen and (max-width: 515px)
-    {
-        .filter-section
-        {
-            margin-bottom: 85px;
-        }
-    }
 
 
     @media screen and (max-width: 480px)
@@ -1674,18 +1481,12 @@ main
             display: block;
             margin-left: 25px;
         }
-    }
 
-    @media screen and (max-width: 455px)
-    {
         .filter-section
         {
             margin-bottom: 90px;
         }
-    }
-    
-    @media screen and (max-width: 451px)
-    {
+
         .most-pop-box
         {
             width: 280px;
@@ -1710,27 +1511,21 @@ main
         {
             width: 280px;
         }
-    }
-
+        
+            .filter-section
+            {
+                margin-bottom: 125px;
+            }
+        
     
-    @media screen and (max-width: 375px)
-    {
-        .filter-section
+        .cadre-footer
         {
-            margin-bottom: 125px;
+            padding-bottom: 30px;
+        }
+    
+        .trie-footer
+        {
+            flex-direction: column;
+            align-items: flex-start;
         }
     }
-
-    .cadre-footer
-    {
-        padding-bottom: 30px;
-    }
-
-    .trie-footer
-    {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-}
-
-
