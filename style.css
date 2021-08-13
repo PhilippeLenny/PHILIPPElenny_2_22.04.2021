@@ -966,7 +966,7 @@ main
     .bloc-most-popular
     {
         width: 100%;
-        height: 250px;
+        height: 225px;
         margin-bottom: 20px;
         margin-left: 0px;
     }
@@ -1170,6 +1170,11 @@ main
         border-radius: 0px 0px 0px 0px;
     }
 
+    .number-logement-text
+    {
+        margin-top: 35px;
+    }
+
     .search-left-marker-logo
     {
         width: 47px;
@@ -1273,13 +1278,20 @@ main
         color: black;
         margin-left: 0px;
         margin-right: 0px;
-        margin-bottom: 0px;
+        width: 50%;
     }
 
     .all-annonces-most-pop
     {
         display: flex;
         justify-content: space-around;
+        flex-direction: column;
+        margin-top: 215px;
+    }
+
+    .most-pop-image
+    {
+        width: 395px;
     }
 
     .most-pop-night-price
@@ -1295,6 +1307,7 @@ main
     .bloc-most-popular
     {
         border-radius: 0px;
+        height: 550px;
         width: 100%;
     }
 
@@ -1311,10 +1324,11 @@ main
 
     .most-pop-box
     {
-        margin-left: 4px;
+        margin-left: 15px;
         margin-right: 7px;
         margin-bottom: 5px;
         margin-top: 20px;
+        width: 100%;
     }
 
     .all-activity
@@ -1407,19 +1421,17 @@ main
         .all-annonces-most-pop
         {
             flex-direction: column;
-            align-items: center;
             margin-top: 225px;
         }
 
         .most-pop-box
         {
             margin-top: 10px;
-            width: 650px;
         }
 
         .most-pop-image
         {
-            width: 170px;
+            width: 175px;
         }
 
         .most-pop-night-price
@@ -1433,7 +1445,15 @@ main
         }
 
 
+        .input-all-annonces
+        {
+            width: 100%;
+        }
 
+        .annonce-M-box
+        {
+            width: 100%;
+        }
 
 
         .title-hébergement-marseille
@@ -1446,12 +1466,6 @@ main
         {
             align-items: center;
         }
-
-        .annonce-M-box
-        {
-            width: 650px;
-        }
-        
        
         
         .annonce-M-text-align
@@ -1508,7 +1522,13 @@ main
         }
     }
 
-
+    @media screen and (max-width: 536px)
+    {
+        .catégorie-bloc
+        {
+            margin-bottom: 40px;
+        }
+    }
 
     @media screen and (max-width: 480px)
     {
@@ -1575,17 +1595,14 @@ main
             border-radius: 0px 20px 20px 0px;
         }
 
-
-
-
         .most-pop-box 
         {
-            width: 380px;
+            width: 100%;
         }
 
         .most-pop-image
         {
-            width: 170px;
+            width: 100px;
         }
 
         .all-activity
@@ -1651,58 +1668,12 @@ main
         }
     }
 
-    @media screen and (max-width: 474px)
+    @media screen and (max-width: 395px)
     {
-        .logements-retour-l
-        {
-            display: block;
-            margin-left: 25px;
-        }
-
         .filter-section
         {
-            margin-bottom: 90px;
-        }
-
-        .most-pop-box
-        {
-            width: 280px;
-        }
-
-        .most-pop-image
-        {
-            width: 100px;
-        }
-
-        .title-hébergement-marseille
-        {
-            margin-right: 40px;
-        }
-
-        .annonce-M-box
-        {
-            width: 280px;
-        }
-
-        .activity-ajustement
-        {
-            width: 280px;
-        }
-        
-            .filter-section
-            {
-                margin-bottom: 125px;
-            }
-        
-    
-        .cadre-footer
-        {
-            padding-bottom: 30px;
-        }
-    
-        .trie-footer
-        {
-            flex-direction: column;
-            align-items: flex-start;
+            margin-bottom: 85px;
         }
     }
+
+    
