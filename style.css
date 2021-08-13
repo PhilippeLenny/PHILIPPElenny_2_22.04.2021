@@ -293,6 +293,8 @@ main
     margin-left: 5px;
     margin-right: 5px;
     display: flex;
+    height: 200px;
+    width: 30%;
     flex-direction: row;
 }
 
@@ -311,15 +313,12 @@ main
     box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35); 
     box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35);
     background-color: white;
-    height: 192px;
-    min-width: 267px;
+    width: 267px;
     padding: 5px;
 }
 
 .annonce-M-image
 {
-	min-width: 260px;
-    width: auto;
 	height: 125px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -521,7 +520,7 @@ main
 
 .image-vieux-port
 {
-    width: 325px;
+    width: 100%;
     height: 300px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -559,7 +558,7 @@ main
 
 .image-pomègue
 {
-    width: 300px;
+    width: 100%;
     height: 135px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -583,7 +582,7 @@ main
 
 .image-frioul
 {
-    width: 300px;
+    width: 100%;
     height: 100px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -608,7 +607,7 @@ main
 
 .image-canalaques
 {
-    width: 325px;
+    width: 100%;
     height: 302px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -632,7 +631,7 @@ main
 
 .image-nôtre-dame
 {
-    width: 310px;
+    width: 100%;
     height: 115px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -651,7 +650,7 @@ main
 
 .image-Longchamp
 {
-    width: 310px;
+    width: 100%;
     height: 120px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -674,11 +673,15 @@ main
 .îles-fort-column
 {
     flex-direction: column;
+    display: flex;
+    justify-content: space-between;
 }
 
 .dame-parc-culumn
 {
     flex-direction: column;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -721,6 +724,180 @@ main
 .nos-hébergement
 {
     margin-right: 250px;
+}
+
+.all-activity-annonce
+{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1372px)
+{
+    .all-activity
+    {
+        display: flex;
+    }
+
+    .all-activity-annonce
+    {
+        width: 40%;
+    }
+
+    .cadre-vieux-port
+    {
+        flex-direction: column;
+        border-bottom: 2px solid #e6e6e6;
+        border-left: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+        background-color: white;
+        border-radius: 25px 25px 20px 20px;
+        width: 330px;
+        height: 192px;
+        margin-bottom: 17px;
+    }
+
+    .image-vieux-port
+    {
+        width: 100%;
+	    height: 150px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .fort-pomègue
+    {
+        flex-direction: column;
+        border-bottom: 2px solid #e6e6e6;
+        border-left: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+        background-color: white;
+        border-radius: 25px 25px 20px 20px;
+        width: 330px;
+        height: 192px;
+        margin-bottom: 17px;
+    }
+
+    .fort-séparation
+    {
+        padding-bottom: 0px;
+    }
+
+    .îles-fort-column
+    {
+        padding-left: 0px;
+        display: contents;
+    }
+
+    .image-pomègue
+    {
+        width: 100%;
+	    height: 150px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .îles-frioul
+    {
+        flex-direction: column;
+        border-bottom: 2px solid #e6e6e6;
+        border-left: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+        background-color: white;
+        border-radius: 25px 25px 20px 20px;
+        width: 330px;
+        height: 192px;
+        margin-bottom: 17px;
+    }
+
+    .image-frioul
+    {
+        width: 100%;
+	    height: 150px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .parc-ali
+    {
+        padding-left:  0px;
+        padding-right: 0px;
+    }
+
+    .parc-canalaques
+    {
+        flex-direction: column;
+        border-bottom: 2px solid #e6e6e6;
+        border-left: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+        background-color: white;
+        border-radius: 25px 25px 20px 20px;
+        width: 330px;
+        height: 192px;
+        margin-bottom: 17px;
+    }
+
+    .image-canalaques
+    {
+        width: 100%;
+	    height: 150px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .nôtre-dame-modif
+    {
+        padding-bottom: 0px;
+    }   
+
+    .nôtre-dame
+    {
+        flex-direction: column;
+        border-bottom: 2px solid #e6e6e6;
+        border-left: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+        background-color: white;
+        border-radius: 25px 25px 20px 20px;
+        width: 330px;
+        height: 192px;
+        margin-bottom: 17px;
+    }
+
+    .dame-parc-culumn
+    {
+        display: flex;
+        flex-direction: row;
+        display: contents;
+    }
+    
+    .image-nôtre-dame
+    {
+        width: 100%;
+	    height: 150px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .Longchamp
+    {
+        flex-direction: column;
+        border-bottom: 2px solid #e6e6e6;
+        border-left: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+        background-color: white;
+        border-radius: 25px 25px 20px 20px;
+        width: 330px;
+        height: 192px;
+        margin-bottom: 17px;
+    }
+
+    .image-Longchamp
+    {
+        width: 100%;
+	    height: 150px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
 }
 
 @media screen and (max-width: 1200px)
@@ -831,7 +1008,7 @@ main
 
     .image-vieux-port
     {
-        width: 335px;
+        width: 100%;
 	    height: 150px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
@@ -863,7 +1040,7 @@ main
 
     .image-pomègue
     {
-        width: 335px;
+        width: 100%;
 	    height: 150px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
@@ -884,7 +1061,7 @@ main
 
     .image-frioul
     {
-        width: 335px;
+        width: 100%;
 	    height: 150px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
@@ -911,7 +1088,7 @@ main
 
     .image-canalaques
     {
-        width: 335px;
+        width: 100%;
 	    height: 150px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
@@ -944,7 +1121,7 @@ main
     
     .image-nôtre-dame
     {
-        width: 335px;
+        width: 100%;
 	    height: 150px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
@@ -965,7 +1142,7 @@ main
 
     .image-Longchamp
     {
-        width: 335px;
+        width: 100%;
 	    height: 150px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
