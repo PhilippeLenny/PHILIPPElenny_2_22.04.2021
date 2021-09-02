@@ -71,6 +71,7 @@ body
     font-size: 1.2rem;
     text-decoration: none;
     color: black;
+    margin-right: 45px;
 }
 
 .text-decoration-input-heberg
@@ -78,6 +79,7 @@ body
     font-size: 1.2rem;
     text-decoration: none;
     color: #2478ff;
+    margin-right: 45px;
 }
 
 .list-inscription-categorie
@@ -112,7 +114,8 @@ main
 
 .subtitle
 {
-    margin-top: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .search-bar
@@ -199,8 +202,8 @@ main
 {
     border: 2px solid #e6e6e6;
     border-radius: 20px;
-    padding-top: 6px;
-    padding-bottom: 5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     padding-right: 15px;
     block-size: 30px;
 }
@@ -215,7 +218,7 @@ main
     border: 2px solid #d8eff2;
     border-radius: 50%;
     background-color: #d8eff2;
-    padding: 6px;
+    padding: 10px;
     margin-bottom: 2px;
     position: relative;
     right: 3px;
@@ -226,16 +229,21 @@ main
     border: 2px solid #d8eff2;
     border-radius: 50%;
     background-color: #d8eff2;
-    padding: 6px;
-    padding-right: 9px;
-    padding-left: 9px;
+    padding: 10px;
+    padding-right: 14px;
+    padding-left: 14px;
     position: relative;
     right: 3px;
 }
 
+.number-logement-bloc{
+    display: flex;
+    margin-bottom: 20px;
+}
+
 .number-logement-text
 {
-    padding-bottom: 20px;
+    margin-left: 5px;
 }
 
 .blue-info-logo
@@ -510,7 +518,7 @@ main
     background-color: white;
     border-radius: 25px 25px 20px 20px;
     
-    height: 342px;
+    height: 350px;
 }
 
 .image-vieux-port
@@ -526,8 +534,8 @@ main
     font-weight: bold;
     font-size: 1.1rem;
     margin-bottom: 12px;
-    margin-left: 7px;
-    margin-top: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .titre-activite-spe
@@ -535,8 +543,8 @@ main
     font-weight: bold;
     font-size: 1.2rem;
     padding-bottom: 12px;
-    margin-left: 7px;
-    margin-top: 8px;
+    margin-left: 10px;
+    margin-top: 12px;
     display: flex;
 }
 
@@ -547,7 +555,7 @@ main
     box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25);
     background-color: white;
     border-radius: 25px 25px 20px 20px;
-    height: 155px;
+    height: 160px;
     margin-bottom: 27px;
 }
 
@@ -571,7 +579,7 @@ main
     box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25);
     background-color: white;
     border-radius: 25px 25px 20px 20px;
-    height: 160px;
+    height: 164px;
 }
 
 .image-frioul
@@ -595,8 +603,7 @@ main
     box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25);
     background-color: white;
     border-radius: 25px 25px 20px 20px;
-   
-    height: 342px;
+    height: 350px;
 }
 
 .image-canalaques
@@ -619,7 +626,7 @@ main
     box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.25);
     background-color: white;
     border-radius: 25px 25px 20px 20px;
-    height: 155px;
+    height: 160px;
     margin-bottom: 27px;
 }
 
@@ -639,7 +646,7 @@ main
     background-color: white;
     border-radius: 25px 25px 20px 20px;
 
-    height: 160px;
+    height: 163px;
 }
 
 .image-Longchamp
@@ -710,7 +717,7 @@ main
 {
     font-weight: bold;
     font-size: 1.2rem;
-    padding-top: 25px;
+    margin-top:40px;
 }
 
 .categorie-footer
@@ -758,8 +765,7 @@ main
         border-right: 2px solid #e6e6e6;
         background-color: white;
         border-radius: 25px 25px 20px 20px;
-
-        height: 192px;
+        height: 196px;
         margin-bottom: 17px;
     }
 
@@ -779,8 +785,7 @@ main
         border-right: 2px solid #e6e6e6;
         background-color: white;
         border-radius: 25px 25px 20px 20px;
-
-        height: 192px;
+        height: 196px;
         margin-bottom: 17px;
     }
 
@@ -811,8 +816,7 @@ main
         border-right: 2px solid #e6e6e6;
         background-color: white;
         border-radius: 25px 25px 20px 20px;
-
-        height: 192px;
+        height: 196px;
         margin-bottom: 17px;
     }
 
@@ -838,8 +842,7 @@ main
         border-right: 2px solid #e6e6e6;
         background-color: white;
         border-radius: 25px 25px 20px 20px;
- 
-        height: 192px;
+        height: 196px;
         margin-bottom: 17px;
     }
 
@@ -864,8 +867,7 @@ main
         border-right: 2px solid #e6e6e6;
         background-color: white;
         border-radius: 25px 25px 20px 20px;
-
-        height: 192px;
+        height: 196px;
         margin-bottom: 17px;
     }
 
@@ -892,7 +894,7 @@ main
         border-right: 2px solid #e6e6e6;
         background-color: white;
         border-radius: 25px 25px 20px 20px;
-        height: 192px;
+        height: 196px;
         margin-bottom: 17px;
     }
 
@@ -902,6 +904,10 @@ main
 	    height: 150px;
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
+    }
+
+    .titre-activite{
+        margin-top: 11px;
     }
 }
 
@@ -934,11 +940,6 @@ main
     .filter-section
     {
         margin-left: 18px;
-    }
-
-    .number-logement-text
-    {
-        margin-left: 15px;
     }
 
     .first-website-part
@@ -1011,7 +1012,7 @@ main
         background-color: white;
         border-radius: 25px 25px 20px 20px;
 
-        height: 192px;
+        height: 198px;
         margin-bottom: 17px;
     }
 
@@ -1032,7 +1033,7 @@ main
         background-color: white;
         border-radius: 25px 25px 20px 20px;
 
-        height: 192px;
+        height: 198px;
         margin-bottom: 17px;
     }
 
@@ -1064,7 +1065,7 @@ main
         background-color: white;
         border-radius: 25px 25px 20px 20px;
  
-        height: 192px;
+        height: 198px;
         margin-bottom: 17px;
     }
 
@@ -1091,7 +1092,7 @@ main
         background-color: white;
         border-radius: 25px 25px 20px 20px;
 
-        height: 192px;
+        height: 198px;
         margin-bottom: 17px;
     }
 
@@ -1117,7 +1118,7 @@ main
         background-color: white;
         border-radius: 25px 25px 20px 20px;
 
-        height: 192px;
+        height: 198px;
         margin-bottom: 17px;
     }
 
@@ -1145,7 +1146,7 @@ main
         background-color: white;
         border-radius: 25px 25px 20px 20px;
 
-        height: 192px;
+        height: 198px;
         margin-bottom: 17px;
     }
 
@@ -1183,9 +1184,8 @@ main
         border-radius: 0px 0px 0px 0px;
     }
 
-    .number-logement-text
-    {
-        margin-top: 35px;
+    .number-logement-bloc{
+        margin-top: 55px;
     }
 
     .search-left-marker-logo
@@ -1244,7 +1244,7 @@ main
 
     .categorie-input-padding
     {
-        margin-bottom: 25px;
+        margin-bottom: 35px;
     }
 
     .first-website-part
@@ -1372,7 +1372,7 @@ main
 
     .a-propos-footer
     {
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
     .categorie-footer{
@@ -1419,20 +1419,26 @@ main
         }
 
         .text-decoration-input{
-            border-bottom: 2px solid grey;
+            border-bottom: 2px solid #e6e6e6;
             height: 100%;
             width: 100%;
             padding-top: 10px;
             padding-bottom: 10px;
+            margin-right: 0px;
+            display: flex;
+            justify-content: center;
         }
 
         .text-decoration-input-heberg{
             border-top: transparent;
-            border-bottom: 2px solid gray;
+            border-bottom: 2px solid #e6e6e6;
             width: 100%;
             height: 100%;
             padding-top: 10px;
             padding-bottom: 10px;
+            margin-right: 0px;
+            display: flex;
+            justify-content: center;
         }
 
         .search-left-marker-logo
@@ -1536,11 +1542,10 @@ main
         }
     }
 
-    @media screen and (max-width: 536px)
+    @media screen and (max-width: 552px)
     {
-        .categorie-bloc
-        {
-            margin-bottom: 40px;
+        .number-logement-bloc{
+            margin-top: 110px;
         }
     }
 
@@ -1640,9 +1645,13 @@ main
         {
            margin-left: 40px;
         }
+
+        .number-logement-bloc{
+            margin-top: 150px;
+        }
     }
 
-    @media screen and (max-width: 395px)
+    @media screen and (max-width: 396px)
     {
         .filter-section
         {
