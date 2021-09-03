@@ -1363,13 +1363,6 @@ main
         flex-direction: row;
     }
 
-    
-
-    .cadre-footer
-    {
-        margin-left: 0px;
-    }
-
     .a-propos-footer
     {
         margin-left: 50px;
@@ -1529,7 +1522,6 @@ main
         }
 
         
-
         .trie-footer
         {
             flex-direction: column;
