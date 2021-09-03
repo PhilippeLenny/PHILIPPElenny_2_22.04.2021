@@ -171,7 +171,7 @@ main
 {
     display: flex;
     margin-top: 25px;
-    margin-bottom: 25px;
+    
 }
 
 .filter-title
@@ -244,6 +244,7 @@ main
 .number-logement-text
 {
     margin-left: 5px;
+    margin-top: 35px;
 }
 
 .blue-info-logo
@@ -252,9 +253,12 @@ main
     border: 1px solid #dee0df;
     font-size: 0.6rem;
     border-radius: 50%;
-    padding: 4px;
-    padding-right: 8px;
-    padding-left: 8px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
 }
 
 .first-website-part
@@ -1163,6 +1167,7 @@ main
         margin-left: 55px;
     }
 
+    
 }
 
 @media screen and (max-width: 1024px)
@@ -1184,8 +1189,12 @@ main
         border-radius: 0px 0px 0px 0px;
     }
 
-    .number-logement-bloc{
-        margin-top: 55px;
+    .number-logement-text{
+        margin-top: 3px;
+    }
+
+    .blue-info-logo{
+        margin-top: 0px;
     }
 
     .search-left-marker-logo
@@ -1196,11 +1205,6 @@ main
     .filter-section
     {
         margin-bottom: 0px;
-    }
-
-    .categorie-bloc
-    {
-        height: 40px;
     }
 
     .filter-section
@@ -1415,11 +1419,16 @@ main
             border-bottom: 2px solid #e6e6e6;
             height: 100%;
             width: 100%;
-            padding-top: 10px;
+            padding-top: 15px;
             padding-bottom: 10px;
             margin-right: 0px;
             display: flex;
             justify-content: center;
+        }
+
+        .text-decoration-input:hover{
+            border-bottom: 2px solid #2478ff;
+            color: #2478ff;
         }
 
         .text-decoration-input-heberg{
@@ -1427,21 +1436,17 @@ main
             border-bottom: 2px solid #e6e6e6;
             width: 100%;
             height: 100%;
-            padding-top: 10px;
+            padding-top: 15px;
             padding-bottom: 10px;
             margin-right: 0px;
             display: flex;
             justify-content: center;
+            border-bottom: solid 2px #2478ff;
         }
 
         .search-left-marker-logo
         {
             width: 50px;
-        }
-
-        .filter-section
-        {
-            margin-bottom: 50px;
         }
 
         .bloc-most-popular
@@ -1525,7 +1530,7 @@ main
         .trie-footer
         {
             flex-direction: column;
-            margin-left: 0px;
+            margin-left: 40px;
         }
 
         .a-propos-footer
@@ -1534,19 +1539,11 @@ main
         }
     }
 
-    @media screen and (max-width: 552px)
-    {
-        .number-logement-bloc{
-            margin-top: 110px;
-        }
-    }
-
     @media screen and (max-width: 480px)
     {
         
         .filter-section
         {
-            margin-bottom: 45px;
             flex-direction: column;
         }
 
@@ -1637,18 +1634,8 @@ main
         {
            margin-left: 40px;
         }
-
-        .number-logement-bloc{
-            margin-top: 150px;
-        }
     }
 
-    @media screen and (max-width: 396px)
-    {
-        .filter-section
-        {
-            margin-bottom: 85px;
-        }
-    }
+    
 
     
